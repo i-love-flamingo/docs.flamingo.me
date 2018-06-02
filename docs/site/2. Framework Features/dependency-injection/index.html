@@ -1,0 +1,993 @@
+
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      
+      <meta name="generator" content="mkdocs-0.17.3, mkdocs-material-1.5.4">
+    
+    
+      
+        <title> Dingo Dependency Injection - Flamingo</title>
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr-56ade86843.js"></script>
+      <script src="../../assets/javascripts/jquery.min.js"></script>
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application-b1a1975878.css">
+      
+    
+    
+      
+        
+        
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/ci.css">
+    
+    
+  </head>
+  
+  
+  
+  
+    <body>
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="drawer">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
+    <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <a href="../../index.html" title="Flamingo" class="md-logo md-header-nav__button">
+            <img src="../../assets/flamingo-icon.png" height="25">
+          </a>
+        
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <span class="md-flex__ellipsis md-header-nav__title">
+          
+            
+              
+                <span class="md-header-nav__parent">
+                  2. Framework Features
+                </span>
+              
+            
+            Dingo Dependency Injection
+          
+        </span>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+          
+<div class="md-search" data-md-component="search">
+  <div class="md-search__overlay"></div>
+  <div class="md-search__inner">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" required placeholder="Search" accesskey="s" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
+      <label class="md-icon md-search__icon" for="search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset">close</button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta" data-md-lang-result-none="No matching documents" data-md-lang-result-one="1 matching document" data-md-lang-result-other="# matching documents">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <div class="md-header-nav__source">
+          
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="drawer">
+    
+      <i class="md-logo md-nav__button">
+        <img src="../../assets/flamingo-icon.png">
+      </i>
+    
+    Flamingo
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../index.html" title="Flamingo Documentation" class="md-nav__link">
+      Flamingo Documentation
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      0. Introduction
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        0. Introduction
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../0. Introduction/1. Getting Started/index.html" title="Getting started with Flamingo" class="md-nav__link">
+      Getting started with Flamingo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../0. Introduction/2. Tutorial Hello World/index.html" title="Hello World Flamingo" class="md-nav__link">
+      Hello World Flamingo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../0. Introduction/3. Tutorial Frontend Templating/index.html" title="Flamingo Frontend Development" class="md-nav__link">
+      Flamingo Frontend Development
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      1. Developing
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        1. Developing
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../1. Developing/1_Structure/index.html" title="Flamingo Project Structure" class="md-nav__link">
+      Flamingo Project Structure
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../1. Developing/2_Ports and Adapters/index.html" title="2 Ports and Adapters" class="md-nav__link">
+      2 Ports and Adapters
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../1. Developing/4_Testing/index.html" title="Testing" class="md-nav__link">
+      Testing
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../1. Developing/5_Test and Mock external services/index.html" title="Testing and Mocking external Services" class="md-nav__link">
+      Testing and Mocking external Services
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
+    
+    <label class="md-nav__link" for="nav-4">
+      2. Framework Features
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        2. Framework Features
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../configuration concept/index.html" title="Configuration" class="md-nav__link">
+      Configuration
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Dingo Dependency Injection
+      </label>
+    
+    <a href="index.html" title="Dingo Dependency Injection" class="md-nav__link md-nav__link--active">
+      Dingo Dependency Injection
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#about-dependency-injection" title="About dependency injection" class="md-nav__link">
+    About dependency injection
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#di-container-in-flamingo" title="DI Container in Flamingo" class="md-nav__link">
+    DI Container in Flamingo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hello-dingo" title="Hello Dingo" class="md-nav__link">
+    Hello Dingo
+  </a>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../events/index.html" title="Events" class="md-nav__link">
+      Events
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../flaming_vs_idiomatic_go/index.html" title="Flaming vs idiomatic go" class="md-nav__link">
+      Flaming vs idiomatic go
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../routing/index.html" title="Routing" class="md-nav__link">
+      Routing
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../sessions/index.html" title="Sessions" class="md-nav__link">
+      Sessions
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      3. Core Packages
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        3. Core Packages
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../3. Core Packages/pug-template/index.html" title="Pug template" class="md-nav__link">
+      Pug template
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      4. Others
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        4. Others
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../4. Others/FAQ/index.html" title="FAQ" class="md-nav__link">
+      FAQ
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#about-dependency-injection" title="About dependency injection" class="md-nav__link">
+    About dependency injection
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#di-container-in-flamingo" title="DI Container in Flamingo" class="md-nav__link">
+    DI Container in Flamingo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hello-dingo" title="Hello Dingo" class="md-nav__link">
+    Hello Dingo
+  </a>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="dingo-dependency-injection">Dingo Dependency Injection<a class="headerlink" href="#dingo-dependency-injection" title="Permanent link">&para;</a></h1>
+<h2 id="about-dependency-injection">About dependency injection<a class="headerlink" href="#about-dependency-injection" title="Permanent link">&para;</a></h2>
+<p>In general we suggest using Dependency Injection Pattern - this Patterns means nothing more than
+if your object requires collaboration with others, then expect the user (or client)
+of your object to set this dependencies from outside.</p>
+<p>To use this pattern you don't need a seperate dependency injection container. 
+But using this approach gives you higher testability and often leads to a cleaner and flexible architecture.
+Typical "things" that can be injected are services, repositories or factories. If your object just expects a certain
+"interface" the user/client of your object can decide what concrete object it wants your object to use.</p>
+<p>It might sound like a "hen &lt;-&gt; egg" problem - because someone has to decide on the concrete instance that should
+be injected.</p>
+<p>So somewhere it need to start - and someone needs to inject the correct dependencies to your object - right?
+This can be for example:
+- the orchestration logic (normaly in the application layer) deciding which instance(s) to inject.
+You can achive this without any framework support.
+- a dependency registration concept - where you allow also other packages to influence which object should be injected.
+This normaly requires a dependency injection container in the framework.</p>
+<h2 id="di-container-in-flamingo">DI Container in Flamingo<a class="headerlink" href="#di-container-in-flamingo" title="Permanent link">&para;</a></h2>
+<p>Flamingo Framework comes with a DI Container called Dingo.</p>
+<p>The Container acts as kind of registry for services (objects of any type), factories and parameters.
+The container can then return (or resolve) objects and can inject depenendcies automatically with some magic involved.</p>
+<p>It is mainly used in the core for:
+- managing different contexts and stateful objects (like routing) in the contexts
+- registering ports and adapters
+- ...</p>
+<h2 id="hello-dingo">Hello Dingo<a class="headerlink" href="#hello-dingo" title="Permanent link">&para;</a></h2>
+<p>Dingo works very very similiar to <a href="../github.com/google/guice/wiki/GettingStarted">Guice</a></p>
+<p>Basically one binds implementations/factories to interfaces, which are then resolved by Dingo.</p>
+<p>Given that Dingo's idea is based on Guice we use similar examples in this documentation:</p>
+<p>The following example shows a BillingService with two injected dependencies. Please note
+that Go's nature does not allow contructors, and does not allow decorations/annotations
+beside struct-tags, thus, we only use struct tags (and later arguments for providers).</p>
+<p>Also Go does not have a way to reference types (like Java's <code>Something.class</code>) we use <code>nil</code>
+and cast it to a pointer to the interface we want to specify: <code>(*Something)(nil)</code>.
+Dingo then knowns how to dereference it properly and derive the correct type <code>Something</code>.
+This is not necessary for structs, where we can just use the null value via <code>Something{}</code>.</p>
+<pre><code class="go">type BillingService struct {
+    Processor CreditCardProcessor `inject:&quot;&quot;`
+    TransactionLog TransactionLog `inject:&quot;&quot;`
+}
+
+func (billingservice *BillingService) ChargeOrder(order PizzaOrder, creditCard CreditCard) Receipt {
+    // ...
+}
+</code></pre>
+
+<p>We want the BillingService to get certain dependencies, and configure this in a <code>BillingModule</code>
+which implements <code>dingo.Module</code>:</p>
+<pre><code class="go">type BillingModule struct {}
+
+func (module *BillingModule) Configure(injector *dingo.Injector) {
+     /*
+      * This tells Dingo that whenever it sees a dependency on a TransactionLog,
+      * it should satisfy the dependency using a DatabaseTransactionLog.
+      */
+    injector.Bind((*TransactionLog)(nil)).To(DatabaseTransactionLog{})
+
+     /*
+      * Similarly, this binding tells Dingo that when CreditCardProcessor is used in
+      * a dependency, that should be satisfied with a PaypalCreditCardProcessor.
+      */
+    injector.Bind((*CreditCardProcessor)(nil)).To(PaypalCreditCardProcessor{})
+  }
+}
+</code></pre>
+
+<p>The modules provide information to Dingo on how to build the injection tree, and at the topmost level
+the injector is created and used in the following way:</p>
+<pre><code class="go">package main
+
+import &quot;go.aoe.com/flamingo/framework/dingo&quot;
+
+func main() {
+  var injector = dingo.NewInjector()
+
+  // The injector can be initialized by modules:
+  injector.InitModules(new(BillingModule))
+
+  /*
+   * Now that we've got the injector, we can build objects.
+   * We get a new instance, and cast it accordingly:
+   */
+  var billingService = injector.GetInstance((*BillingService)(nil)).(BillingService)
+  //...
+}
+</code></pre>
+
+<p>A module itself can ask for dependencies, e.g.</p>
+<pre><code class="go">type Module struct {
+    RouterRegistry *router.Registry `inject:&quot;&quot;`
+}
+
+func (m *Module) Configure(injector *dingo.Inject) {
+    m.RouterRegistry.Route(&quot;/home&quot;, &quot;home()&quot;)
+}
+</code></pre>
+
+<h1 id="bindings">Bindings<a class="headerlink" href="#bindings" title="Permanent link">&para;</a></h1>
+<p>Dingo uses bindings to express dependencies resolutions, and will panic if there is more than one
+binding for a type with the same name (or unnamed), unless you use multibindings.</p>
+<h2 id="bind">Bind<a class="headerlink" href="#bind" title="Permanent link">&para;</a></h2>
+<p>Bind creates a new binding, and tells Dingo how to resolve the type when it encounters a request for this type.
+Bindings can chain, but need to implement the correct interfaces.</p>
+<pre><code class="go">injector.Bind((*Something)(nil))
+</code></pre>
+
+<h2 id="annotatedwith">AnnotatedWith<a class="headerlink" href="#annotatedwith" title="Permanent link">&para;</a></h2>
+<p>By default a binding is unnamend, and thus requested with the <code>inject:""</code> tag.</p>
+<p>However you can name bindings to have more concrete kinds of it. Using <code>AnnotatedWith</code> you can specify the name:</p>
+<pre><code class="go">injector.Bind((*Something)(nil)).AnnotatedWith(&quot;myAnnotation&quot;)
+</code></pre>
+
+<p>It is requested via the <code>inject:"myAnnotation"</code> tag.</p>
+<h2 id="to">To<a class="headerlink" href="#to" title="Permanent link">&para;</a></h2>
+<p>To defines which type should be created when this type is requested.
+This can be an Interface which implements to one it is bound to, or a concrete type.
+The type is then created via <code>reflect.New</code>.</p>
+<pre><code class="go">injector.Bind((*Something)(nil)).To(MyType{})
+</code></pre>
+
+<h2 id="toprovider">ToProvider<a class="headerlink" href="#toprovider" title="Permanent link">&para;</a></h2>
+<p>If you want a factory to create your types then you rather use <code>ToProvider</code> instead of <code>To</code>.</p>
+<p><code>ToProvider</code> is a function which returns an instance (which again will go thru Dingo to fill dependencies).</p>
+<p>Also the provider can request arguments from Dingo which are necessary to construct the bounded type.
+If you need named arguments (e.g. a string instance annotated with a configuration value) you need to request
+an instance of an object with these annotations, because Go does not allow to pass any meta-information on function
+arguments.</p>
+<pre><code class="go">func MyTypeProvider(se SomethingElse) *MyType {
+    return &amp;MyType{
+        Special: se.DoSomething(),
+    }
+}
+
+injector.Bind((*Something)(nil)).ToProvider(MyTypeProvider)
+</code></pre>
+
+<p>This example will make Dingo call <code>MyTypeProvider</code> and pass in an instance of <code>SomethingElse</code> as it's first argument,
+then take the result of <code>*MyType</code> as the value for <code>Something</code>.</p>
+<p><code>ToProvider</code> takes precedence over <code>To</code>.</p>
+<h2 id="toinstance">ToInstance<a class="headerlink" href="#toinstance" title="Permanent link">&para;</a></h2>
+<p>For situations where you have one, and only one, concrete instance you can use <code>ToInstance</code> to bind
+something to the concrete instance. This is not the same as a Singleton!
+(Even though the resuting behaviour is very similar.)</p>
+<pre><code class="go">var myInstance = new(MyType)
+myInstance.Connect(somewhere)
+injector.Bind((*Something)(nil)).ToInstance(myInstance)
+</code></pre>
+
+<p>You can also bind an instance it to a struct obviously, not only to interfaces.</p>
+<p><code>ToInstance</code> takes precedence over both <code>To</code> and <code>ToProvider</code>.</p>
+<h2 id="in">In<a class="headerlink" href="#in" title="Permanent link">&para;</a></h2>
+<p><code>In</code> allows us to bind in a scope, making the created instances scoped in a certain way.</p>
+<p>Currently Dingo only allows to bind to <code>dingo.Singleton</code> and <code>dingo.ChildSingleton</code>.</p>
+<pre><code class="go">injector.Bind((*Something)(nil)).In(dingo.Singleton).To(MyType{})
+</code></pre>
+
+<h3 id="dingosingleton">dingo.Singleton<a class="headerlink" href="#dingosingleton" title="Permanent link">&para;</a></h3>
+<p>The <code>dingo.Singleton</code> scope makes sure a dependency is only resolved once, and the result is
+reused. Because the Singleton needs synchronisation for types over multiple concurrent
+goroutines and make sure that a Singleton is only created once, the initial creation
+can be costly and also the injection of a Singleton is always taking more resources than creation
+of an immutable new object.</p>
+<p>The synchronisation is done on multiple levels, a first test tries to find the singleton,
+if that is not possible a lock-mechanism via a scoped Mutex takes care of delegating
+the concrete creation to one goroutine via a scope+type specific Mutex which then generates
+the Singleton and makes it available to other currently waiting injection requests, as
+well as future injection requests.</p>
+<p>By default it is advised to not use Singletons whenever possible, and rather use
+immutable objects you inject whenever you need them.</p>
+<h3 id="dingochildsingleton">dingo.ChildSingleton<a class="headerlink" href="#dingochildsingleton" title="Permanent link">&para;</a></h3>
+<p>The ChildSingleton is just another Singleton (actually of the same type), but dingo will create a new one
+for every derived child injector.</p>
+<p>This allows frameworks like Flamingo to distinguish at a root level between singleton scopes, e.g. for
+multi-page setups where we need a wide scope for routers.</p>
+<p>Since ChildSingleton is very similar to Singleton you should only use it with care.</p>
+<h2 id="aseagersingleton">AsEagerSingleton<a class="headerlink" href="#aseagersingleton" title="Permanent link">&para;</a></h2>
+<p>Singleton creation is always costly due to synchronisation overhead, therefore
+Dingo bindings allow to mark a binding <code>AsEagerSingleton</code>.</p>
+<p>This makes sure the Singleton is created as soon as possible, before the rest of the Application
+runs. <code>AsEagerSingleton</code> implies <code>In(dingo.Singleton)</code>.</p>
+<pre><code class="go">injector.Bind((*Something)(nil)).To(MyType{}).AsEagerSingleton()
+</code></pre>
+
+<p>It is also possible to bind a concrete type without <code>To</code>:</p>
+<pre><code class="go">injector.Bind(MyType{}).AsEagerSingleton()
+</code></pre>
+
+<p>Binding this type as an eager singleton inject the singleton instance whenever <code>MyType</code> is requested. <code>MyType</code> is a concrete type (struct) here, so we can use this mechanism to create an instance explicitly before the application is run.</p>
+<h2 id="override">Override<a class="headerlink" href="#override" title="Permanent link">&para;</a></h2>
+<p>In rare cases you might have to override an existing binding, which can be done with <code>Override</code>:</p>
+<pre><code class="go">injector.Override((*Something)(nil), &quot;&quot;).To(MyBetterType{})
+</code></pre>
+
+<p><code>Override</code> also returns a binding such as <code>Bind</code>, but removes the original binding.</p>
+<p>The second argument sets the annotation if you want to override a named binding.</p>
+<h1 id="multibindings">MultiBindings<a class="headerlink" href="#multibindings" title="Permanent link">&para;</a></h1>
+<p>MultiBindings provide a way of binding multiple implementations of a type to a type,
+making the injection a list.</p>
+<p>Essentially this means that multiple modules are able to register for a type, and a user of this
+type can request an injection of <code>[]T</code> to get a list of all registered bindings.</p>
+<pre><code class="go">injector.BindMulti((*Something)(nil)).To(MyType1{})
+injector.BindMulti((*Something)(nil)).To(MyType2{})
+
+struct {
+    List []Something `inject:&quot;&quot;`  // List is a slice of []Something{MyType1{}, MyType2{}}
+}
+</code></pre>
+
+<p>MultiBindings are used to allow multiple modules to register for a certain type, such as a list of
+encoders, subscribers, etc.</p>
+<p>Please not that MultiBindings are not always a clear pattern, as it might hide certain complexity.</p>
+<p>Usually it is easier to request some kind of a registry in your module, and then register explicitly.</p>
+<h1 id="requesting-injection">Requesting injection<a class="headerlink" href="#requesting-injection" title="Permanent link">&para;</a></h1>
+<p>Dingo uses struct tags to allow structs to request injection into fields.</p>
+<p>As stated earlier this is the only Go-way to make annotations, everything else is not supported!</p>
+<p>For every requested injection (unless an exception applies) Dingo does the following:</p>
+<ul>
+<li>Is there a binding? If so: delegate to the binding</li>
+<li>Is the binding in a certain scope (Singleton)? If so, delegate to scope (might result in a new loop)</li>
+<li>Binding is bound to an instance: inject instance</li>
+<li>Binding is bound to a provider: call provider</li>
+<li>Binding is bound to a type: request injection of this type (might return in a new loop to resolve the binding)</li>
+<li>No binding? Try to create (only possible for concrete types, not interfaces or functions)</li>
+</ul>
+<h2 id="optional-injection">Optional injection<a class="headerlink" href="#optional-injection" title="Permanent link">&para;</a></h2>
+<p>An injection struct tag can be marked as optional by adding the suffix <code>,optional</code> to it.
+This means that for interfaces, slices, pointers etc where dingo can not resolve a concrete type, the <code>nil</code>-type is injected.</p>
+<p>You can check via <code>if my.Prop == nil</code> if this is nil.</p>
+<h2 id="multibindings_1">MultiBindings<a class="headerlink" href="#multibindings_1" title="Permanent link">&para;</a></h2>
+<p>Injection of multibindings:</p>
+<pre><code class="go">struct {
+    ListOfTypes []Type `inject:&quot;&quot;`
+}
+</code></pre>
+
+<h2 id="annotatedwith_1">AnnotatedWith<a class="headerlink" href="#annotatedwith_1" title="Permanent link">&para;</a></h2>
+<p>Injection of annotated values:</p>
+<pre><code class="go">struct {
+    PaypalPaymentProcessor PaymentProcessor `inject:&quot;Paypal&quot;`
+}
+</code></pre>
+
+<h2 id="provider">Provider<a class="headerlink" href="#provider" title="Permanent link">&para;</a></h2>
+<p>Dingo allows to request the injection of provider instead of instances.</p>
+<pre><code class="go">struct {
+    PizzaProvider func() Pizza `inject:&quot;&quot;`
+}
+</code></pre>
+
+<p>If there is no concrete binding to the type <code>func() Pizza</code>, then instead of constructing one <code>Pizza</code> instance
+Dingo will create a new function which, on every call, will return a new instance of <code>Pizza</code>.</p>
+<p>The type must be of <code>func() T</code>, a function without any arguments which returns a type, which again has a binding.</p>
+<p>This allows to lazily create new objects whenever needed, instead of requesting the Dingo injector itself.</p>
+<p>For example:</p>
+<pre><code class="go">func createSomething(factoryDependency SomethingElse) Something{
+    return &amp;MyType{}
+}
+
+injector.Bind((*Something)(nil)).ToProvider(createSomething)
+
+struct {
+    SomethingProvider func() Something `inject:&quot;&quot;`
+}
+</code></pre>
+
+<p>will essentially call <code>createSomething(new(SomethingElse))</code> everytime <code>SomethingProvider()</code> is called,
+passing the resulting instance thru the injection to finalize uninjected fields. </p>
+<h1 id="how-and-where-injection-can-be-used">How and Where "injection" can be used<a class="headerlink" href="#how-and-where-injection-can-be-used" title="Permanent link">&para;</a></h1>
+<p>Every instance that is created through the container can use injection. 
+To get instances injected you just have to use the "inject" annotation inside of structs like this:</p>
+<pre><code class="go">type RenderAware struct {
+    Router *router.Router  `inject:&quot;&quot;`
+    Engine template.Engine `inject:&quot;&quot;`
+}
+</code></pre>
+
+<h2 id="when-to-use-the-depencency-injection-container-in-flamingo">When to use the depencency injection container in flamingo<a class="headerlink" href="#when-to-use-the-depencency-injection-container-in-flamingo" title="Permanent link">&para;</a></h2>
+<ul>
+<li>It is ok to not use the dependency injection container. In fact overusing the container adds unneccessary complexity.
+When writing a package you should think of beeing able to also use it without the container
+ So it is ok to:<ul>
+<li>Explicitly initialize your object yourself and decide in the application layer what to inject (if you use dependency injection)</li>
+<li>Explicitly use your own factory directly </li>
+</ul>
+</li>
+<li>Every object that has a state that is depending on the running configuration-context, e.g. in a project where multiple configuration-contexts exist, should be injected,
+because every configuration-context has its own initialized container the di container takes care of giving you
+the correct initialized instance.<ul>
+<li>For example the Router ( <code>*responder.RenderAware `inject:""`</code> )</li>
+<li>Also for settings/parameters/configurations  </li>
+</ul>
+</li>
+<li>Also the DI Container is used get the "right" interface implementation - in order to implement a flexible
+"Ports and Adapters" concept (see below)</li>
+</ul>
+<h2 id="ports-and-adapters-with-the-container">Ports and Adapters with the Container<a class="headerlink" href="#ports-and-adapters-with-the-container" title="Permanent link">&para;</a></h2>
+<p>Basti: Wouln't it be cool </p>
+<h1 id="binding-basic-types">Binding basic types<a class="headerlink" href="#binding-basic-types" title="Permanent link">&para;</a></h1>
+<p>Dingo allows binding values to <code>int</code>, <code>string</code> etc., such as with any other type.</p>
+<p>This can be used to inject configuration values.</p>
+<p>Flamingo makes an annotated binding of every configuration value in the form of:</p>
+<pre><code class="go">var Configuration map[string]interface{}
+
+for k, v := range Configuration {
+    injector.Bind(v).AnnotatedWith(&quot;config:&quot; + k).ToInstance(v)
+}
+</code></pre>
+
+<p>In this case Dingo learns the actual type of <code>v</code> (such as string, bool, int) and provides the annotated injection.</p>
+<p>Later this can be used via</p>
+<pre><code class="go">struct {
+    ConfigParam string `inject:&quot;config:myconfigParam&quot;`
+}
+</code></pre>
+
+<h1 id="dingo-interception">Dingo Interception<a class="headerlink" href="#dingo-interception" title="Permanent link">&para;</a></h1>
+<p>Dingo allows modules to bind interceptors for interfaces.</p>
+<p>Essentially this means that whenever the injection of a certain type is happening,
+the interceptor is injected instead with the actual injection injected into the interceptor's
+first field. This mechanism can only work for interface interception.</p>
+<p>Multiple interceptors stack upon each other.</p>
+<p>Interception should be used with care!</p>
+<pre><code class="go">func (m *Module) Configure(injector *dingo.Injector) {
+    injector.BindInterceptor((*template.Engine)(nil), TplInterceptor{})
+    injector.BindInterceptor((*template.Function)(nil), FunctionInterceptor{})
+}
+
+type (
+    TplInterceptor struct {
+        template.Engine
+    }
+
+    FunctionInterceptor struct {
+        template.Function
+    }
+)
+
+func (t *TplInterceptor) Render(context web.Context, name string, data interface{}) io.Reader {
+    log.Println(&quot;Before Rendering&quot;, name)
+    start := time.Now()
+    r := t.Engine.Render(context, name, data)
+    log.Println(&quot;After Rendering&quot;, time.Since(start))
+    return r
+}
+
+func (f *FunctionInterceptor) Name() string {
+    funcname := f.Function.Name()
+    log.Println(&quot;Function&quot;, funcname, &quot;used&quot;)
+    return funcname
+}
+</code></pre>
+                
+                  
+                
+              
+              
+                
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../configuration concept/index.html" title="Configuration" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Configuration
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../events/index.html" title="Events" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Events
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Flamingo
+         | <a href="https://www.aoe.com/om3" title="OM3">OM3</a>
+      </div>
+      
+        
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application-0b7df094bf.js"></script>
+      <script>app.initialize({url:{base:"../.."}})</script>
+      
+        <script src="../../search/require.js"></script>
+      
+        <script src="../../search/search.js"></script>
+      
+    
+    
+      
+    
+  </body>
+</html>

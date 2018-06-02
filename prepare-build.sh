@@ -1,0 +1,18 @@
+#!/bin/bash
+
+
+echo "*****Cleanup Workspace..."
+rm -rf workspace
+mkdir -p workspace
+
+echo "*****Prepare all docs in workspace folder"
+cp -R docs workspace/
+
+echo "*****Clone flamingo and flamingo commerce"
+git clone git@gitlab.aoe.com:shared/i-love-flamingo/flamingo.git workspace/flamingo
+git clone git@gitlab.aoe.com:shared/i-love-flamingo/flamingo-commerce.git workspace/flamingo-commerce
+
+echo "*****Copy package readmes to workspace"
+./copyPackageDocs.sh
+echo "*****Compiling documentation"
+cd workspace/docs
