@@ -26,10 +26,10 @@ build doc:
 
 
 publish container:
-  stage: build
+  stage: publish
   script:
   - docker build -t flamingo-docs .
   only:
   - master
   dependencies:
-  - prepare docs
+  - build doc
