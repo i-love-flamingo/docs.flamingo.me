@@ -16,3 +16,5 @@ echo "*****Copy package readmes to workspace"
 ./copyPackageDocs.sh
 echo "*****Compiling documentation"
 cd workspace/docs
+cd ../..
+

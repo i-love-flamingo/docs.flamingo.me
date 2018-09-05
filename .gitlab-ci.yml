@@ -31,6 +31,18 @@ build doc:
     paths:
     - workspace/docs/site
 
+build additional assets:
+  stage: build
+  script:
+  - ./build_other_assets.sh
+  only:
+  - master
+  dependencies:
+  - build doc
+  artifacts:
+    expire_in: 2 days
+    paths:
+    - workspace/docs/site
 
 publish container:
   stage: publish
@@ -39,4 +51,4 @@ publish container:
   only:
   - master
   dependencies:
-  - build doc
+  - build additional assets
