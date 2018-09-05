@@ -1,6 +1,7 @@
 stages:
 - prepare
 - build
+- publish
 
 prepare docs:
   stage: prepare
@@ -12,11 +13,22 @@ prepare docs:
     expire_in: 2 days
     paths:
     - workspace/docs
-build:
+
+build doc:
   stage: build
   image: squidfunk/mkdocs-material:latest
   script:
   - build
+  only:
+  - master
+  dependencies:
+  - prepare docs
+
+
+publish container:
+  stage: build
+  script:
+  - docker build -t flamingo-docs .
   only:
   - master
   dependencies:
