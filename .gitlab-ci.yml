@@ -18,8 +18,8 @@ prepare docs:
 build doc:
   stage: build
   image: squidfunk/mkdocs-material:latest
-  volumes:
-  - "workspace/docs:/docs"
+#  volumes:
+#  - "workspace/docs:/docs"
   script:
   - build
   only:
