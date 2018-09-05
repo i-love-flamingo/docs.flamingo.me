@@ -4,7 +4,6 @@ stages:
 
 prepare docs:
   stage: prepare
-  image: docker:latest
   script:
   - cd ./prepare-build.sh
   only:
