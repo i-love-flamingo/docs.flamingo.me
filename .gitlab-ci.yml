@@ -6,7 +6,7 @@ stages:
 prepare docs:
   stage: prepare
   script:
-  - cd ./prepare-build.sh
+  - ./prepare-build.sh
   only:
   - master
   artifacts:
