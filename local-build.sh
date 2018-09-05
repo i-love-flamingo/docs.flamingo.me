@@ -1,21 +1,22 @@
 #!/bin/bash
 
+BUILDIMAGE=squidfunk/mkdocs-material:latest
+
+
 echo "*****Update Build Container..."
 echo "******************************"
-docker pull squidfunk/mkdocs-material
+docker pull ${BUILDIMAGE}
 
-echo "*****Prepare Docs..."
+echo "*****Prepare Docs inside workspace folder."
 echo "******************************"
 ./prepare-build.sh
 
-echo "*****Build Docs..."
+echo "*****run build mkdocs..."
 echo "******************************"
 cd workspace/docs
-docker run -v `pwd`:/docs --rm squidfunk/mkdocs-material build
+docker run --rm -it -v ${PWD}:/docs ${BUILDIMAGE} build
+#docker run -v `pwd`:/mkdocs --rm ${BUILDIMAGE} /mkdocs/build.sh
 cd ../../
-
-echo "*****Copy result"
-cp -R workspace/docs/site/* result/
 
 
 #echo "*****Build Carotene CLI Doc site"

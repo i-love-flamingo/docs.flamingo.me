@@ -1,13 +1,22 @@
-site_name: Flamingo
+site_name: Flamingo Documentations
+extra:
+  logo: assets/flamingo-icon.png
+  social:
+    - type: 'github'
+      link: 'https://github.com/i-love-flamingo'
+    - type: 'twitter'
+      link: 'https://twitter.com/aoepeople'
+extra_css:
+  - stylesheets/ci.css
 markdown_extensions:
   - extra
   - footnotes
   - admonition
   - toc(permalink=true)
-use_directory_urls: false
-extra:
-  logo: assets/flamingo-icon.png
-extra_css:
-  - stylesheets/ci.css
-theme: mkdocs
-theme_dir: material
+  - abbr
+use_directory_urls: true
+theme:
+  name: 'material'
+#  custom_dir: 'theme'
+  logo: assets/flamingo-small-icon.png
+

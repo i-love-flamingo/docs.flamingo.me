@@ -1,0 +1,24 @@
+stages:
+- prepare
+- build
+
+prepare docs:
+  stage: prepare
+  image: docker:latest
+  script:
+  - cd ./prepare-build.sh
+  only:
+  - master
+  artifacts:
+    expire_in: 2 days
+    paths:
+    - workspace/docs
+build:
+  stage: build
+  image: squidfunk/mkdocs-material:latest
+  script:
+  - build
+  only:
+  - master
+  dependencies:
+  - prepare docs

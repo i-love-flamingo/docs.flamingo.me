@@ -2,10 +2,10 @@
 
 ## What is Flamingo
 
-A blazing fast modern ecommerce frontend framework with useful packages.
+Flamingo is a go based, opinionated framework for pluggable web projects.
+It is used to build scalable web-applications for your headless microservice architecture.
 
-![logo](assets/flamingo-icon-b.jpg)
-
-## Getting started
-
-Start here: [Getting Started Overview](0.%20Introduction/1.%20Getting%20Started/)
+* open source
+* written in go
+* easy to learn
+* fast and flexible
