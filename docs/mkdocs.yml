@@ -14,7 +14,7 @@ markdown_extensions:
   - admonition
   - toc(permalink=true)
   - abbr
-use_directory_urls: true
+use_directory_urls: false
 theme:
   name: 'material'
 #  custom_dir: 'theme'

@@ -7,3 +7,5 @@ cp -R -L "workspace/flamingo/docs/2. Framework Modules" "workspace/docs/docs/1. 
 cp -R -L "workspace/flamingo/docs/3. Core Modules" "workspace/docs/docs/1. Flamingo/"
 cp -R "workspace/flamingo/docs/4. Others" "workspace/docs/docs/1. Flamingo/"
 
+cp "workspace/example-helloworld/Readme.md" "workspace/docs/docs/0. Introduction/2. Tutorial Hello World.md"
+

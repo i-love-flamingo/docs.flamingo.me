@@ -19,3 +19,6 @@ cd ../../
 echo "*****Build Other assets / Training Materials"
 echo "******************************"
 ./build_other_assets.sh
+
+
+open workspace/docs/site/index.html
