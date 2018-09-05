@@ -15,8 +15,9 @@ It is used to build scalable web-applications for your headless microservice arc
 ## Ecosystem for "Blazing fast commerce experience layer"
 
 Together with:
-* flamingo-commerce = Flamingo modules to build (e-)commerce sites
-* and flamingo-carotene = Frontend build pipeline featuring pug and atomic design pattern
+
+* **flamingo-commerce** = Flamingo modules to build (e-)commerce sites
+* and **flamingo-carotene** = Frontend build pipeline featuring pug and atomic design pattern
 
 It can be used to implement modern and blazing fast commerce web applications.
 
