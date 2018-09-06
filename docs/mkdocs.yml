@@ -9,10 +9,13 @@ extra:
 extra_css:
   - stylesheets/ci.css
 markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
   - extra
   - footnotes
-  - admonition
-  - toc(permalink=true)
   - abbr
 use_directory_urls: false
 theme:

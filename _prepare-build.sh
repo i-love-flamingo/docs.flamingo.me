@@ -14,7 +14,7 @@ git clone git@gitlab.aoe.com:shared/i-love-flamingo/flamingo-commerce.git worksp
 git clone git@gitlab.aoe.com:shared/i-love-flamingo/example-helloworld.git workspace/example-helloworld
 
 echo "*****Copy package readmes to workspace"
-./copyPackageDocs.sh
+./_copyPackageDocs.sh
 echo "*****Compiling documentation"
 cd workspace/docs
 cd ../..

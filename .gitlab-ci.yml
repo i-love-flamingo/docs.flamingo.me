@@ -7,7 +7,7 @@ prepare docs:
   stage: prepare
   image: docker:latest
   script:
-  - ./prepare-build.sh
+  - ./_prepare-build.sh
   only:
   - master
   artifacts:
@@ -33,7 +33,7 @@ build doc:
 build additional assets:
   stage: build
   script:
-  - ./build_other_assets.sh
+  - ./_build_other_assets.sh
   only:
   - master
   dependencies:
