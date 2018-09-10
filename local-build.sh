@@ -21,4 +21,5 @@ echo "******************************"
 ./_build_other_assets.sh
 
 
-open workspace/docs/site/index.html
+# open workspace/docs/site/index.html
+
