@@ -12,7 +12,7 @@ echo "*****run build mkdocs..."
 echo "******************************"
 docker pull ${BUILDIMAGE}
 cd workspace/docs
-docker run --rm -it -v ${PWD}:/docs ${BUILDIMAGE} build
+docker run --rm -v ${PWD}:/docs ${BUILDIMAGE} build
 cd ../../
 
 
