@@ -42,5 +42,5 @@ You may want to start reading in the docs:
 
 # External Links:
 * http://www.flamingo.me
-* http://doc.flamingo.me
+* http://docs.flamingo.me
 * http://godoc.flamingo.me
