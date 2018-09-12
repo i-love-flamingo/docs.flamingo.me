@@ -8,7 +8,7 @@ echo "*****Clone the example projects HELLOWORLD"
 cd workspace/example-helloworld
 git pull --all
 cd ..
-zip example-helloworld.zip example-helloworld
+zip -r example-helloworld.zip example-helloworld
 mkdir -p docs/site/examples/
 cp example-helloworld.zip docs/site/examples/
 
@@ -25,7 +25,7 @@ docker run --rm -w "/tmp" -v ${PWD}:/tmp aoepeople/carotene-env:1.7.0  "yarn"
 
 
 cd ../..
-zip example-hello-flamingo-carotene.zip example-hello-flamingo-carotene
+zip -r example-hello-flamingo-carotene.zip example-hello-flamingo-carotene
 
 cp example-hello-flamingo-carotene.zip docs/site/examples/
 
