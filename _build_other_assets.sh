@@ -7,6 +7,7 @@ mkdir -p docs/site/examples/
 echo "*****Clone the example projects HELLOWORLD"
 cd workspace/example-helloworld
 git pull --all
+make up
 cd ..
 zip -r example-helloworld.zip example-helloworld
 mkdir -p docs/site/examples/
@@ -19,7 +20,7 @@ echo "*****Clone the example projects  FLAMINGO CAROTENE HELLO WORLD"
 
 cd example-hello-flamingo-carotene
 git pull --all
-
+make up
 cd frontend
 docker run --rm -w "/tmp" -v ${PWD}:/tmp aoepeople/carotene-env:1.7.0  "yarn"
 
@@ -36,7 +37,7 @@ echo "*****Clone the example projects  FLAMINGO CAROTENE HELLO WORLD"
 
 cd example-openweather
 git pull --all
-
+make up
 cd frontend
 docker run --rm -w "/tmp" -v ${PWD}:/tmp aoepeople/carotene-env:1.7.0  "yarn"
 
