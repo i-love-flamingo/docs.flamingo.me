@@ -22,7 +22,7 @@ cd example-hello-flamingo-carotene
 git pull --all
 make up
 cd frontend
-docker run --rm -w "/tmp" -v ${PWD}:/tmp aoepeople/carotene-env:1.7.0  "yarn"
+docker run --rm -w "/tmp" -v yarn:/yarn -e YARN_CACHE_FOLDER=/yarn -v ${PWD}:/tmp aoepeople/carotene-env:1.7.0  "yarn"
 
 
 cd ../..
@@ -39,7 +39,7 @@ cd example-openweather
 git pull --all
 make up
 cd frontend
-docker run --rm -w "/tmp" -v ${PWD}:/tmp aoepeople/carotene-env:1.7.0  "yarn"
+docker run --rm -w "/tmp" -v yarn:/yarn -e YARN_CACHE_FOLDER=/yarn -v ${PWD}:/tmp aoepeople/carotene-env:1.7.0  "yarn"
 
 
 cd ../..
