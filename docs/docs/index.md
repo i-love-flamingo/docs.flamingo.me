@@ -1,6 +1,6 @@
 # Flamingo Documentation
 
-![Logo](assets/flamingo-icon-b.jpg)
+![Logo](assets/flamingo-icon-b.png)
 
 
 ## What is Flamingo
