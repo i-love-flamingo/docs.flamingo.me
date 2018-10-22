@@ -12,8 +12,6 @@ cp -R "workspace/flamingo/docs/4. Others" "workspace/docs/docs/1. Flamingo/"
 cp -R -L "workspace/flamingo-commerce/docs/1. Introduction" "workspace/docs/docs/2. Flamingo Commerce/"
 cp -R -L "workspace/flamingo-commerce/docs/2. Flamingo Commerce Modules" "workspace/docs/docs/2. Flamingo Commerce/"
 
-
-
-
+# From example-helloworld
 cp "workspace/example-helloworld/Readme.md" "workspace/docs/docs/0. Introduction/2. Tutorial Hello World.md"
 
