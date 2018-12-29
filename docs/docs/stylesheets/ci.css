@@ -25,3 +25,8 @@
 .md-nav--secondary {
     border-left: .4rem solid #F7931D;
 }
+
+
+html .md-nav--primary .md-nav__title--site {
+    background-color: #606A71!important;
+}
