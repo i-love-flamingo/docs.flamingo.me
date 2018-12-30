@@ -26,6 +26,7 @@ With "Flamingo Carotene" and "Flamingo Commerce" you get your toolkit for buildi
 # The Flamingo Ecosystem
 
 The Flamingo ecosystem consists of the following main projects:
+
 * *Flamingo*: This is the go based (micro)framework with all Core and Framework modules.
 * *Flamingo Carotene*: Npm modules that provide the frontend build pipeline features - featuring pug, SaSS and atomic design pattern.
 * *Flamingo Commerce*: Powerful e-commerce features that you can use to build flexible and moder e-commerce applications
