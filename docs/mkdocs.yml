@@ -20,7 +20,7 @@ markdown_extensions:
 use_directory_urls: false
 theme:
   name: 'material'
-  favicon: assets/flamingo-small-icon.png
+  favicon: assets/flamingo_head_black_small.png
 #  custom_dir: 'theme'
   logo: assets/flamingo-small-icon.png
 

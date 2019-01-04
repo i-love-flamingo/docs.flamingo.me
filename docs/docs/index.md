@@ -27,23 +27,29 @@ With "Flamingo Carotene" and "Flamingo Commerce" you get your toolkit for buildi
 
 The Flamingo ecosystem consists of the following main projects:
 
-* *Flamingo*: This is the go based (micro)framework with all Core and Framework modules.
-* *Flamingo Carotene*: Npm modules that provide the frontend build pipeline features - featuring pug, SaSS and atomic design pattern.
-* *Flamingo Commerce*: Powerful e-commerce features that you can use to build flexible and moder e-commerce applications
+* *Flamingo*: This is the go based (micro)framework with all core and framework modules.
+* *Flamingo Carotene*: Npm modules that provide a frontend build pipeline for your projects - featuring tools like pug, Sass, webpack and atomic design pattern.
+* *Flamingo Commerce*: Providing powerful e-commerce features, that you can use to build flexible and modern e-commerce applications
 
-Related to this three main projects you find a couple of training and example projects.
+Related to this projects you find a couple of training materials and examples.
 
 ## Flamingo Carotene
-Is the frontend build pipeline featuring pug and atomic design pattern
+Flamingo-Carotene is an easy to use frontend (-tooling) for projects build with the Flamingo framework.
+Ii offers the frontend build pipeline using tools like pug, sass, webpack and atomic design pattern.
+It can be used to implement modern and flexible - component based templates for your web applications.
 
-It can be used to implement modern and blazing fast commerce web applications.
+[documentation for Flaming Carotene](2. Flamingo Carotene/1. Flamingo Carotene Basics/Introduction.html)
 
 ## Flamingo Commerce
+
+Flamingo Commerce consits of several Flamingo modules, that provide powerful e-commerce features, that you can use to build flexible and modern e-commerce applications.
 
 Flamingo Commerce uses "Domain Driven Design" with a "technology free" domain model by using the layering approach "Ports and Adapters" for its modules.
 The different modules provide „domain“, „application“ and „interface“ logic around commerce features.
 
 According to „ports and adapters“ these modules can be used with your own „Adapters“ to interact with any API or microservice you want.
+
+[documentation for Flaming Commerce](3. Flamingo Commerce/1. Introduction/About Flamingo Commerce.html)
 
 
 # Getting started

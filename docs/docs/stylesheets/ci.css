@@ -21,12 +21,28 @@
     color: #F7931D;
 }
 
+/* adjust width and font of left menu to allow wider text */
+.md-sidebar--primary {
+    width: 26rem;
+}
+.md-sidebar--primary .md-nav ul ul {
+    font-size: 1.3rem
+}
+@media only screen and (min-width: 76.25em) {
+    .md-content {
+        margin-left: 25rem;
+    }
+}
+
 
 .md-nav--secondary {
     border-left: .4rem solid #F7931D;
 }
 
 
-html .md-nav--primary .md-nav__title--site {
-    background-color: #606A71!important;
+/* adjust bg color of left nav on mobile */
+@media only screen and (max-width: 76.1875em) {
+    html .md-nav--primary .md-nav__title--site {
+        background-color: #606A71;
+    }
 }
