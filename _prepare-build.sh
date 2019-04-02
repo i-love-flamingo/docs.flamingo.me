@@ -12,7 +12,7 @@ echo "*****Clone flamingo and flamingo commerce"
 git clone git@gitlab.aoe.com:shared/i-love-flamingo/flamingo.git workspace/flamingo
 git clone git@gitlab.aoe.com:shared/i-love-flamingo/flamingo-commerce.git workspace/flamingo-commerce
 git clone git@gitlab.aoe.com:shared/i-love-flamingo/flamingo-commerce-adapter-standalone.git workspace/flamingo-commerce-adapter-standalone
-git clone git@gitlab.aoe.com:shared/i-love-flamingo/flamingo-carotene.git workspace/flamingo-carotene
+git clone https://github.com/i-love-flamingo/flamingo-carotene.git workspace/flamingo-carotene
 
 echo "*****Clone example/training projects - to add them also in documentation"
 git clone git@gitlab.aoe.com:shared/i-love-flamingo/example-helloworld.git workspace/example-helloworld
