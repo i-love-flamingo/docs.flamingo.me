@@ -15,5 +15,5 @@ cp -R -L "workspace/flamingo-commerce/docs/2. Flamingo Commerce Modules" "worksp
 cp "workspace/example-helloworld/Readme.md" "workspace/docs/docs/0. Introduction/2. Tutorial Hello World.md"
 
 # From Carotene
-cp -R -L "workspace/flamingo-carotene/docs/1. Flamingo Carotene Basics" "workspace/docs/docs/2. Flamingo Carotene/"
-cp -R -L "workspace/flamingo-carotene/docs/2. Flamingo Carotene Modules" "workspace/docs/docs/2. Flamingo Carotene/"
+cp -R -L "workspace/flamingo-carotene/docs/basics" "workspace/docs/docs/2. Flamingo Carotene/1. Basics"
+cp -R -L "workspace/flamingo-carotene/docs/modules" "workspace/docs/docs/2. Flamingo Carotene/2. Modules"
