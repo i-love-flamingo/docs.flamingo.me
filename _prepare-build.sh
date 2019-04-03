@@ -22,26 +22,26 @@ echo "*****Clone flamingo modules that are not bundled in flamingo-framework"
 git clone git@github.com:i-love-flamingo/dingo.git workspace/dingo
 cp workspace/dingo/Readme.md "workspace/docs/docs/2. Flamingo Modules/1. dingo.md"
 
-git clone git@gitlab.aoe.com:shared/i-love-flamingo/form.git workspace/form
+git clone git@github.com:i-love-flamingo/form.git workspace/form
 cp workspace/form/Readme.md "workspace/docs/docs/2. Flamingo Modules/2. form.md"
 
-git clone git@gitlab.aoe.com:shared/i-love-flamingo/csrf.git workspace/csrf
+git clone git@github.com:i-love-flamingo/csrf.git workspace/csrf
 cp workspace/csrf/Readme.md "workspace/docs/docs/2. Flamingo Modules/csrf.md"
 
-git clone git@gitlab.aoe.com:shared/i-love-flamingo/redirects.git workspace/redirects
-cp workspace/redirects/Readme.md "workspace/docs/docs/2. Flamingo Modules/redirects.md"
+#git clone git@gitlab.aoe.com:shared/i-love-flamingo/redirects.git workspace/redirects
+#cp workspace/redirects/Readme.md "workspace/docs/docs/2. Flamingo Modules/redirects.md"
 
-git clone git@gitlab.aoe.com:shared/i-love-flamingo/pugtemplate.git workspace/pugtemplate
+git clone git@github.com:i-love-flamingo/pugtemplate.git workspace/pugtemplate
 cp workspace/pugtemplate/Readme.md "workspace/docs/docs/2. Flamingo Modules/3. pugtemplate.md"
 
-git clone git@gitlab.aoe.com:shared/i-love-flamingo/httpresilience.git workspace/httpresilience
-cp workspace/httpresilience/Readme.md "workspace/docs/docs/2. Flamingo Modules/httpresilience.md"
+#git clone git@gitlab.aoe.com:shared/i-love-flamingo/httpresilience.git workspace/httpresilience
+#cp workspace/httpresilience/Readme.md "workspace/docs/docs/2. Flamingo Modules/httpresilience.md"
 
-git clone git@gitlab.aoe.com:shared/i-love-flamingo/captcha.git workspace/captcha
-cp workspace/captcha/Readme.md "workspace/docs/docs/2. Flamingo Modules/captcha.md"
+#git clone git@gitlab.aoe.com:shared/i-love-flamingo/captcha.git workspace/captcha
+#cp workspace/captcha/Readme.md "workspace/docs/docs/2. Flamingo Modules/captcha.md"
 
-git clone git@gitlab.aoe.com:shared/i-love-flamingo/csp.git workspace/csp
-cp workspace/csp/Readme.md "workspace/docs/docs/2. Flamingo Modules/csp.md"
+#git clone git@gitlab.aoe.com:shared/i-love-flamingo/csp.git workspace/csp
+#cp workspace/csp/Readme.md "workspace/docs/docs/2. Flamingo Modules/csp.md"
 
 
 echo "*****Clone example/training projects - to add them also in documentation"
@@ -54,8 +54,8 @@ cp "workspace/example-helloworld/Readme.md" "workspace/docs/docs/6. Trainings/1.
 
 
 echo "*****Clone flamingo commerce stuff"
-git clone git@gitlab.aoe.com:shared/i-love-flamingo/flamingo-commerce.git workspace/flamingo-commerce
-git clone git@gitlab.aoe.com:shared/i-love-flamingo/flamingo-commerce-adapter-standalone.git workspace/flamingo-commerce-adapter-standalone
+git clone git@github.com:i-love-flamingo/flamingo-commerce.git workspace/flamingo-commerce
+git clone git@github.com:i-love-flamingo/flamingo-commerce-adapter-standalone.git workspace/flamingo-commerce-adapter-standalone
 
 # From flamingo-commerce:
 cp -R -L "workspace/flamingo-commerce/docs/1. Introduction" "workspace/docs/docs/3. Flamingo Commerce/"
@@ -65,19 +65,18 @@ cp -R -L "workspace/flamingo-commerce/docs/2. Flamingo Commerce Modules" "worksp
 
 ############# TEMPLATE ENGINES
 echo "*****Clone flamingo templating - pug and carotene"
-git clone git@gitlab.aoe.com:shared/i-love-flamingo/flamingo-carotene.git workspace/flamingo-carotene
+git clone git@github.com:i-love-flamingo/flamingo-carotene.git workspace/flamingo-carotene
 
 cp -R -L "workspace/flamingo-carotene/docs/1. Flamingo Carotene Basics" "workspace/docs/docs/4. Template Engine Flamingo Carotene/"
 cp -R -L "workspace/flamingo-carotene/docs/2. Flamingo Carotene Modules" "workspace/docs/docs/4. Template Engine Flamingo Carotene/"
 #cp -R -L "workspace/flamingo-carotene/docs/3. Others" "workspace/docs/docs/4. Template Engine Flamingo Carotene/"
 
 
-echo "*****Copy package readmes to workspace"
-./_copyPackageDocs.sh
 
-echo "*****Compiling documentation"
+
 cd workspace/docs
 cd ../..
 
 
 
+echo "*****Ready :-)"
