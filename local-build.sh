@@ -22,5 +22,6 @@ echo "******************************"
 
 echo "DONE :-)"
 
+echo "now open workspace/docs/site/index.html"
 # open workspace/docs/site/index.html
 

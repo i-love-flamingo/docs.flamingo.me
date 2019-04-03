@@ -9,7 +9,7 @@ echo "*****Copy all local docs in workspace folder"
 cp -R docs workspace/
 
 echo "*****Clone flamingo"
-git clone --branch v3 git@gitlab.aoe.com:shared/i-love-flamingo/flamingo.git workspace/flamingo
+git clone git@github.com:i-love-flamingo/flamingo.git workspace/flamingo
 
 cp "workspace/flamingo/docs/0. Introductions/1. Getting Started.md" "workspace/docs/docs/0. Introduction/"
 cp -R "workspace/flamingo/docs/1. Flamingo Basics" "workspace/docs/docs/1. Flamingo Core/"

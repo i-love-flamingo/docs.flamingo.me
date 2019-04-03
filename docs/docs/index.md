@@ -23,15 +23,23 @@ It's architecture is especially useful to build "frontends" for your headless mi
 With "Flamingo Carotene" and "Flamingo Commerce" you get your toolkit for building **blazing fast commerce experience layers**
 
 
-# The Flamingo Ecosystem
+# The "I Love Flamingo" Ecosystem
 
 The Flamingo ecosystem consists of the following main projects:
 
-* *Flamingo*: This is the go based (micro)framework with all core and framework modules.
-* *Flamingo Carotene*: Npm modules that provide a frontend build pipeline for your projects - featuring tools like pug, Sass, webpack and atomic design pattern.
-* *Flamingo Commerce*: Providing powerful e-commerce features, that you can use to build flexible and modern e-commerce applications
+* *Flamingo*: This is the go based (micro)framework with all core and framework modules. [code on github](https://github.com/i-love-flamingo/flamingo)
+* *Flamingo Carotene*: Npm modules that provide a frontend build pipeline for your projects - featuring tools like pug, Sass, webpack and atomic design pattern. [code on github](https://github.com/i-love-flamingo/flamingo-carotene)
+* *Flamingo Commerce*: Providing powerful e-commerce features, that you can use to build flexible and modern e-commerce applications [code on github](https://github.com/i-love-flamingo/flamingo-commerce)
 
-Related to this projects you find a couple of training materials and examples.
+Related to this projects you find a couple of training materials and examples:
+* *hello-flamingo*: A minimalistic example project using only flamingo and gotemplates. [code on github](https://github.com/i-love-flamingo/hello-flamingo)
+* *commerce-demo-carotene*: A standard demo shop using "Flamingo Commerce" and standalone adapters [code on github](https://github.com/i-love-flamingo/commerce-demo-carotene)
+
+Also there is a constantly growing amount of Flamingo modules that can be used as lib, some of them are maintained under the core project like:
+* *dingo* Go Dependency Injection Framework, used for Flamingo modules as basis. [code on github](https://github.com/i-love-flamingo/dingo)
+* *form* Module that provided concepts to deal with web forms (parsing to data transfer objects, validating etc..) [code on github](https://github.com/i-love-flamingo/form)
+* *pugtemplate* Module that implements a flamingo templateengine that works together with the parsed pug templates by Flamingo Carotene. This is the Flamingo module that you need if you want to use Flamingo Carotene based templates. [code on github](https://github.com/i-love-flamingo/pugtemplate)
+ 
 
 ## Flamingo Carotene
 Flamingo-Carotene is an easy to use frontend (-tooling) for projects build with the Flamingo framework.
