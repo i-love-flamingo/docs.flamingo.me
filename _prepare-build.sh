@@ -9,10 +9,11 @@ echo "*****Copy all local docs in workspace folder"
 cp -R docs workspace/
 
 echo "*****Clone flamingo and flamingo commerce"
-git clone git@gitlab.aoe.com:shared/i-love-flamingo/flamingo.git workspace/flamingo
-git clone git@gitlab.aoe.com:shared/i-love-flamingo/flamingo-commerce.git workspace/flamingo-commerce
-git clone git@gitlab.aoe.com:shared/i-love-flamingo/flamingo-commerce-adapter-standalone.git workspace/flamingo-commerce-adapter-standalone
-git clone https://github.com/i-love-flamingo/flamingo-carotene.git workspace/flamingo-carotene
+git clone git@github.com:i-love-flamingo/flamingo.git --branch master --single-branch workspace/flamingo
+git clone git@github.com:i-love-flamingo/flamingo-commerce.git --branch master --single-branch workspace/flamingo-commerce
+#git clone git@gitlab.aoe.com:shared/i-love-flamingo/flamingo-commerce-adapter-standalone.git workspace/flamingo-commerce-adapter-standalone
+git clone git@github.com:i-love-flamingo/flamingo-carotene.git --branch master --single-branch workspace/flamingo-carotene
+git clone git@github.com:i-love-flamingo/pugtemplate.git workspace/flamingo-pugtemplate
 
 echo "*****Clone example/training projects - to add them also in documentation"
 git clone git@gitlab.aoe.com:shared/i-love-flamingo/example-helloworld.git workspace/example-helloworld

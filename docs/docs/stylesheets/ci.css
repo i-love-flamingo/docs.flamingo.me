@@ -22,17 +22,17 @@
 }
 
 /* adjust width and font of left menu to allow wider text */
-.md-sidebar--primary {
-    width: 26rem;
-}
-.md-sidebar--primary .md-nav ul ul {
-    font-size: 1.3rem
-}
-@media only screen and (min-width: 76.25em) {
-    .md-content {
-        margin-left: 25rem;
-    }
-}
+/*.md-sidebar--primary {*/
+/*    width: 26rem;*/
+/*}*/
+/*.md-sidebar--primary .md-nav ul ul {*/
+/*    font-size: 1.3rem*/
+/*}*/
+/*@media only screen and (min-width: 76.25em) {*/
+/*    .md-content {*/
+/*        margin-left: 25rem;*/
+/*    }*/
+/*}*/
 
 
 .md-nav--secondary {

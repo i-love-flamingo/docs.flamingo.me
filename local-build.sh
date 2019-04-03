@@ -20,6 +20,7 @@ echo "*****Build Other assets / Training Materials"
 echo "******************************"
 ./_build_other_assets.sh
 
+echo "DONE :-)"
 
 # open workspace/docs/site/index.html
 
