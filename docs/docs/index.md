@@ -5,7 +5,7 @@
 
 ## What is Flamingo
 
-Flamingo is a go based, framework for pluggable web projects.
+Flamingo is a go based framework for pluggable web projects.
 It is used to build scalable and maintainable web-applications.
 
 Flamingo is:
@@ -35,21 +35,21 @@ Related to this projects you find a couple of training materials and examples.
 
 ## Flamingo Carotene
 Flamingo-Carotene is an easy to use frontend (-tooling) for projects build with the Flamingo framework.
-Ii offers the frontend build pipeline using tools like pug, sass, webpack and atomic design pattern.
+It offers the frontend build pipeline using tools like pug, sass, webpack and atomic design pattern.
 It can be used to implement modern and flexible - component based templates for your web applications.
 
-[documentation for Flaming Carotene](2. Flamingo Carotene/1. Flamingo Carotene Basics/Introduction.html)
+[documentation for Flaming Carotene](2. Flamingo Carotene/1. Flamingo Carotene Basics/01-Introduction.md)
 
 ## Flamingo Commerce
 
-Flamingo Commerce consits of several Flamingo modules, that provide powerful e-commerce features, that you can use to build flexible and modern e-commerce applications.
+Flamingo Commerce consists of several Flamingo modules, that provide powerful e-commerce features, which you can use to build flexible and modern e-commerce applications.
 
 Flamingo Commerce uses "Domain Driven Design" with a "technology free" domain model by using the layering approach "Ports and Adapters" for its modules.
 The different modules provide „domain“, „application“ and „interface“ logic around commerce features.
 
-According to „ports and adapters“ these modules can be used with your own „Adapters“ to interact with any API or microservice you want.
+According to „ports and adapters“ these modules can be used with your own „adapters“ to interact with any API or microservice you want.
 
-[documentation for Flaming Commerce](3. Flamingo Commerce/1. Introduction/About Flamingo Commerce.html)
+[documentation for Flaming Commerce](3. Flamingo Commerce/1. Introduction/About Flamingo Commerce.md)
 
 
 # Getting started
@@ -58,9 +58,9 @@ You may want to start reading in the docs:
 
 * [Getting Started](0. Introduction/1. Getting Started.md)
 * [Tutorial Hello World](0. Introduction/2. Tutorial Hello World.md)
-* [Flamingo Feature Overview](1. Flamingo/1. Flamingo Basics/1_Flamingo Feature Overview.md)
+* [Flamingo Feature Overview](1. Flamingo/1. Flamingo Basics/1. Flamingo Feature Overview.md)
 
 # External Links:
-* http://www.flamingo.me
-* http://docs.flamingo.me
-* http://godoc.flamingo.me
+* [www.flamingo.me](http://www.flamingo.me)
+* [docs.flamingo.me](http://docs.flamingo.me)
+* [godoc.flamingo.me](http://godoc.flamingo.me)

@@ -9,7 +9,6 @@ Also it has the "build" logic to fetch exiting Documentation from the Core Repos
 The *table of content* in the mkdocs result is useing the H1 Header of the Markdown file as Title of the page.
 So make sure each .md file used has a useful h1 headline as first line!
 
-# Build it local:
-Run
-`./local-build.sh'
+## Build it local:
+Run `./local-build.sh'
 
