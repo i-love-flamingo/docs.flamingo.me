@@ -45,6 +45,7 @@ cp workspace/pugtemplate/Readme.md "workspace/docs/docs/3. Flamingo Modules/3. p
 
 
 echo "*****Clone example/training projects - to add them also in documentation"
+
 git clone git@github.com:i-love-flamingo/example-helloworld.git workspace/example-helloworld
 #git clone git@gitlab.aoe.com:shared/i-love-flamingo/example-hello-flamingo-carotene.git workspace/example-hello-flamingo-carotene
 #git clone git@gitlab.aoe.com:shared/i-love-flamingo/example-openweather.git workspace/example-openweather
