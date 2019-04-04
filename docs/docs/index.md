@@ -65,12 +65,10 @@ According to „ports and adapters“ these modules can be used with your own �
 # Getting started
 
 You may want to start reading in the docs:
-
-* [Getting Started](0. Introduction/1. Getting Started.md)
-* [Tutorial Hello World](0. Introduction/2. Tutorial Hello World.md)
-* [Flamingo Feature Overview](1. Flamingo/1. Flamingo Basics/1. Flamingo Feature Overview.md)
+* [Getting Started](1. Introduction/1. Getting Started.md)
+* [Tutorial Hello World](1. Introduction/2. Tutorial Hello World.md)
 
 # External Links:
 * [www.flamingo.me](http://www.flamingo.me)
 * [docs.flamingo.me](http://docs.flamingo.me)
-* [godoc.flamingo.me](http://godoc.flamingo.me)
+

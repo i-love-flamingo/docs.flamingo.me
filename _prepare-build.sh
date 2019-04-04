@@ -11,7 +11,7 @@ cp -R docs workspace/
 echo "*****Clone flamingo"
 git clone git@github.com:i-love-flamingo/flamingo.git workspace/flamingo
 
-cp "workspace/flamingo/docs/0. Introductions/1. Getting Started.md" "workspace/docs/docs/1. Introduction/"
+cp "workspace/flamingo/docs/0. Introduction/1. Getting Started.md" "workspace/docs/docs/1. Introduction/"
 cp -R "workspace/flamingo/docs/1. Flamingo Basics" "workspace/docs/docs/2. Flamingo Core/"
 cp -R -L "workspace/flamingo/docs/2. Framework Modules" "workspace/docs/docs/2. Flamingo Core/"
 cp -R -L "workspace/flamingo/docs/3. Core Modules" "workspace/docs/docs/2. Flamingo Core/"
