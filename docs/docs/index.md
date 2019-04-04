@@ -32,10 +32,12 @@ The Flamingo ecosystem consists of the following main projects:
 * *Flamingo Commerce*: Providing powerful e-commerce features, that you can use to build flexible and modern e-commerce applications [code on github](https://github.com/i-love-flamingo/flamingo-commerce)
 
 Related to this projects you find a couple of training materials and examples:
+
 * *hello-flamingo*: A minimalistic example project using only flamingo and gotemplates. [code on github](https://github.com/i-love-flamingo/hello-flamingo)
 * *commerce-demo-carotene*: A standard demo shop using "Flamingo Commerce" and standalone adapters [code on github](https://github.com/i-love-flamingo/commerce-demo-carotene)
 
 Also there is a constantly growing amount of Flamingo modules that can be used as lib, some of them are maintained under the core project like:
+
 * *dingo* Go Dependency Injection Framework, used for Flamingo modules as basis. [code on github](https://github.com/i-love-flamingo/dingo)
 * *form* Module that provided concepts to deal with web forms (parsing to data transfer objects, validating etc..) [code on github](https://github.com/i-love-flamingo/form)
 * *pugtemplate* Module that implements a flamingo templateengine that works together with the parsed pug templates by Flamingo Carotene. This is the Flamingo module that you need if you want to use Flamingo Carotene based templates. [code on github](https://github.com/i-love-flamingo/pugtemplate)
