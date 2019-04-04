@@ -72,7 +72,8 @@ cp -R -L "workspace/flamingo-carotene/docs/basics" "workspace/docs/docs/5. Templ
 cp -R -L "workspace/flamingo-carotene/docs/modules" "workspace/docs/docs/5. Template Engine Flamingo Carotene/2. Modules"
 #cp -R -L "workspace/flamingo-carotene/docs/3. Others" "workspace/docs/docs/4. Template Engine Flamingo Carotene/"
 
-
+## google tracking
+cp docs/google08f27145a183daa3.html workspace/docs/site/
 
 
 cd workspace/docs

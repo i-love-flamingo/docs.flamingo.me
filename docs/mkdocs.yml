@@ -24,3 +24,6 @@ theme:
 #  custom_dir: 'theme'
   logo: assets/flamingo-small-icon.png
 
+google_analytics:
+  - UA-129655449-1
+  - auto
