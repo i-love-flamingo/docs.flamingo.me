@@ -65,6 +65,7 @@ According to „ports and adapters“ these modules can be used with your own �
 # Getting started
 
 You may want to start reading in the docs:
+
 * [Getting Started](1. Introduction/1. Getting Started.md)
 * [Tutorial Hello World](1. Introduction/2. Tutorial Hello World.md)
 
