@@ -62,7 +62,7 @@ According to „ports and adapters“ these modules can be used with your own �
 [documentation for Flaming Commerce](3. Flamingo Commerce/1. Introduction/About Flamingo Commerce.md)
 
 
-# Getting started
+# Getting started:
 
 You may want to start reading in the docs:
 
@@ -70,6 +70,7 @@ You may want to start reading in the docs:
 * [Tutorial Hello World](1. Introduction/2. Tutorial Hello World.md)
 
 # External Links:
+
 * [www.flamingo.me](http://www.flamingo.me)
 * [docs.flamingo.me](http://docs.flamingo.me)
 
