@@ -41,14 +41,6 @@ Also there is a constantly growing amount of Flamingo modules that can be used a
 * *dingo* Go Dependency Injection Framework, used for Flamingo modules as basis. [code on github](https://github.com/i-love-flamingo/dingo)
 * *form* Module that provided concepts to deal with web forms (parsing to data transfer objects, validating etc..) [code on github](https://github.com/i-love-flamingo/form)
 * *pugtemplate* Module that implements a flamingo templateengine that works together with the parsed pug templates by Flamingo Carotene. This is the Flamingo module that you need if you want to use Flamingo Carotene based templates. [code on github](https://github.com/i-love-flamingo/pugtemplate)
- 
-
-## Flamingo Carotene
-Flamingo-Carotene is an easy to use frontend (-tooling) for projects build with the Flamingo framework.
-It offers the frontend build pipeline using tools like pug, sass, webpack and atomic design pattern.
-It can be used to implement modern and flexible - component based templates for your web applications.
-
-[documentation for Flaming Carotene](2. Flamingo Carotene/1. Flamingo Carotene Basics/01-Introduction.md)
 
 ## Flamingo Commerce
 
@@ -59,8 +51,14 @@ The different modules provide „domain“, „application“ and „interface�
 
 According to „ports and adapters“ these modules can be used with your own „adapters“ to interact with any API or microservice you want.
 
-[documentation for Flaming Commerce](3. Flamingo Commerce/1. Introduction/About Flamingo Commerce.md)
+[documentation for Flamingo Commerce](4. Flamingo Commerce/1. Introduction/About Flamingo Commerce.md) 
 
+## Flamingo Carotene
+Flamingo-Carotene is an easy to use frontend (-tooling) for projects build with the Flamingo framework.
+It offers the frontend build pipeline using tools like pug, sass, webpack and atomic design pattern.
+It can be used to implement modern and flexible - component based templates for your web applications.
+
+[documentation for Flamingo Carotene](5. Template Engine Flamingo Carotene/1. Introduction/01-Introduction.md)
 
 # Getting started:
 
