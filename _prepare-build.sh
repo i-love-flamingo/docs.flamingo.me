@@ -47,20 +47,27 @@ cp workspace/pugtemplate/Readme.md "workspace/docs/docs/3. Flamingo Modules/3. p
 echo "*****Clone example/training projects - to add them also in documentation"
 
 git clone git@github.com:i-love-flamingo/example-helloworld.git workspace/example-helloworld
-#git clone git@gitlab.aoe.com:shared/i-love-flamingo/example-hello-flamingo-carotene.git workspace/example-hello-flamingo-carotene
-#git clone git@gitlab.aoe.com:shared/i-love-flamingo/example-openweather.git workspace/example-openweather
-
 cp "workspace/example-helloworld/Readme.md" "workspace/docs/docs/1. Introduction/2. Tutorial Hello World.md"
 cp "workspace/example-helloworld/Readme.md" "workspace/docs/docs/6. Trainings/1. Tutorial Hello World.md"
+
+git clone git@github.com:i-love-flamingo/example-openweather.git workspace/example-openweather
+cp "workspace/example-openweather/Readme.md" "workspace/docs/docs/6. Trainings/2. Tutorial Openweather.md"
+
+
 
 
 echo "*****Clone flamingo commerce stuff"
 git clone git@github.com:i-love-flamingo/flamingo-commerce.git workspace/flamingo-commerce
-git clone git@github.com:i-love-flamingo/flamingo-commerce-adapter-standalone.git workspace/flamingo-commerce-adapter-standalone
-
-# From flamingo-commerce:
 cp -R -L "workspace/flamingo-commerce/docs/1. Introduction" "workspace/docs/docs/4. Flamingo Commerce/"
 cp -R -L "workspace/flamingo-commerce/docs/2. Flamingo Commerce Modules" "workspace/docs/docs/4. Flamingo Commerce/"
+
+git clone git@github.com:i-love-flamingo/flamingo-commerce-adapter-standalone.git workspace/flamingo-commerce-adapter-standalone
+mkdir -p "workspace/docs/docs/4. Flamingo Commerce/3. Adapter/1. Standalone"
+mkdir -p "workspace/docs/docs/4. Flamingo Commerce/3. Adapter/1. Standalone/csvcommerce"
+mkdir -p "workspace/docs/docs/4. Flamingo Commerce/3. Adapter/1. Standalone/productsearch"
+cp "workspace/flamingo-commerce-adapter-standalone/Readme.md" "workspace/docs/docs/4. Flamingo Commerce/3. Adapter/1. Standalone/"
+cp -R  "workspace/flamingo-commerce-adapter-standalone/csvcommerce/Readme.md" "workspace/docs/docs/4. Flamingo Commerce/3. Adapter/1. Standalone/csvcommerce/"
+cp -R  "workspace/flamingo-commerce-adapter-standalone/productsearch/Readme.md" "workspace/docs/docs/4. Flamingo Commerce/3. Adapter/1. Standalone/productsearch/"
 
 
 
@@ -71,6 +78,12 @@ git clone git@github.com:i-love-flamingo/flamingo-carotene.git workspace/flaming
 cp -R -L "workspace/flamingo-carotene/docs/basics" "workspace/docs/docs/5. Template Engine Flamingo Carotene/1. Introduction"
 cp -R -L "workspace/flamingo-carotene/docs/modules" "workspace/docs/docs/5. Template Engine Flamingo Carotene/2. Modules"
 #cp -R -L "workspace/flamingo-carotene/docs/3. Others" "workspace/docs/docs/4. Template Engine Flamingo Carotene/"
+
+
+git clone git@github.com:i-love-flamingo/example-flamingo-carotene.git workspace/example-flamingo-carotene
+cp "workspace/example-flamingo-carotene/Readme.md" "workspace/docs/docs/5. Template Engine Flamingo Carotene/1. Introduction/2. Tutorial Flamingo Carotene.md"
+cp "workspace/example-flamingo-carotene/Readme.md" "workspace/docs/docs/6. Trainings/2. Tutorial Flamingo Carotene.md"
+
 
 ## google tracking
 cp docs/google08f27145a183daa3.html workspace/docs/site/
