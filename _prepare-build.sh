@@ -82,8 +82,12 @@ cp -R -L "workspace/flamingo-carotene/docs/modules" "workspace/docs/docs/5. Temp
 
 git clone git@github.com:i-love-flamingo/example-flamingo-carotene.git workspace/example-flamingo-carotene
 cp "workspace/example-flamingo-carotene/Readme.md" "workspace/docs/docs/5. Template Engine Flamingo Carotene/1. Introduction/2. Tutorial Flamingo Carotene.md"
-cp "workspace/example-flamingo-carotene/Readme.md" "workspace/docs/docs/6. Trainings/2. Tutorial Flamingo Carotene.md"
+mkdir -p "workspace/docs/docs/5. Template Engine Flamingo Carotene/1. Introduction/docs"
+cp -R "workspace/example-flamingo-carotene/docs/" "workspace/docs/docs/5. Template Engine Flamingo Carotene/1. Introduction/docs/"
 
+cp "workspace/example-flamingo-carotene/Readme.md" "workspace/docs/docs/6. Trainings/2. Tutorial Flamingo Carotene.md"
+mkdir -p "workspace/docs/docs/6. Trainings/docs"
+cp -R "workspace/example-flamingo-carotene/docs/" "workspace/docs/docs/6. Trainings/docs/"
 
 ## google tracking
 cp docs/google08f27145a183daa3.html workspace/docs/site/
