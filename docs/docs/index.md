@@ -72,4 +72,3 @@ You may want to start reading in the docs:
 * [www.flamingo.me](http://www.flamingo.me)
 * [docs.flamingo.me](http://docs.flamingo.me)
 
-
