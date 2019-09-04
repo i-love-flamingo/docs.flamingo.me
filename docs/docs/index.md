@@ -51,7 +51,7 @@ The different modules provide „domain“, „application“ and „interface�
 
 According to „ports and adapters“ these modules can be used with your own „adapters“ to interact with any API or microservice you want.
 
-[documentation for Flamingo Commerce](4. Flamingo Commerce/1. Introduction/About Flamingo Commerce.md) 
+[documentation for Flamingo Commerce](4. Flamingo Commerce/1. Introduction/1. About Flamingo Commerce.md) 
 
 ## Flamingo Carotene
 Flamingo-Carotene is an easy to use frontend (-tooling) for projects build with the Flamingo framework.

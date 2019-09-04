@@ -28,8 +28,8 @@ cp workspace/form/Readme.md "workspace/docs/docs/3. Flamingo Modules/2. form.md"
 git clone git@github.com:i-love-flamingo/csrf.git workspace/csrf
 cp workspace/csrf/Readme.md "workspace/docs/docs/3. Flamingo Modules/csrf.md"
 
-#git clone git@gitlab.aoe.com:shared/i-love-flamingo/redirects.git workspace/redirects
-#cp workspace/redirects/Readme.md "workspace/docs/docs/3. Flamingo Modules/redirects.md"
+git clone git@github.com:i-love-flamingo/graphql.git workspace/graphql
+cp workspace/graphql/Readme.md "workspace/docs/docs/3. Flamingo Modules/graphql.md"
 
 git clone git@github.com:i-love-flamingo/pugtemplate.git workspace/pugtemplate
 cp workspace/pugtemplate/Readme.md "workspace/docs/docs/3. Flamingo Modules/3. pugtemplate.md"
@@ -64,10 +64,10 @@ cp -R -L "workspace/flamingo-commerce/docs/2. Flamingo Commerce Modules" "worksp
 git clone git@github.com:i-love-flamingo/flamingo-commerce-adapter-standalone.git workspace/flamingo-commerce-adapter-standalone
 mkdir -p "workspace/docs/docs/4. Flamingo Commerce/3. Adapter/1. Standalone"
 mkdir -p "workspace/docs/docs/4. Flamingo Commerce/3. Adapter/1. Standalone/csvcommerce"
-mkdir -p "workspace/docs/docs/4. Flamingo Commerce/3. Adapter/1. Standalone/productsearch"
+mkdir -p "workspace/docs/docs/4. Flamingo Commerce/3. Adapter/1. Standalone/productSearch"
 cp "workspace/flamingo-commerce-adapter-standalone/Readme.md" "workspace/docs/docs/4. Flamingo Commerce/3. Adapter/1. Standalone/"
 cp -R  "workspace/flamingo-commerce-adapter-standalone/csvcommerce/Readme.md" "workspace/docs/docs/4. Flamingo Commerce/3. Adapter/1. Standalone/csvcommerce/"
-cp -R  "workspace/flamingo-commerce-adapter-standalone/productsearch/Readme.md" "workspace/docs/docs/4. Flamingo Commerce/3. Adapter/1. Standalone/productsearch/"
+cp -R  "workspace/flamingo-commerce-adapter-standalone/productSearch/Readme.md" "workspace/docs/docs/4. Flamingo Commerce/3. Adapter/1. Standalone/productSearch/"
 
 
 
