@@ -2,6 +2,7 @@
 
 ![Logo](assets/flamingo-icon-b.png)
 
+
 ## What is Flamingo
 
 Flamingo is a go based framework for pluggable web projects.
