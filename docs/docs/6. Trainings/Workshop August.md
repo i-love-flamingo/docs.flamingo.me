@@ -13,6 +13,7 @@ We started with the official Flamingo Hello World example - that you can read up
 
 After this some of the core concepts and features of Flamingo where discussed. You can find the relevant slides here:
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/IYuokUbY4JJprm" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
 [Flamingo Core Concepts Slides](https://de.slideshare.net/i-love-flamingo/flamingo-core-concepts)
 
 The main concepts that have been introduced can also be read up in the documentation:
@@ -28,7 +29,9 @@ and you can work through the examples yourself [Example Flamingo Carotene Projec
 
 The next agenda point for this day was Flamingo and GraphQL. 
 The slides are available here:
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/bxVxm5GZHlylaY" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/i-love-flamingo/graphql-with-flamingo" title="Graphql with Flamingo" target="_blank">Graphql with Flamingo</a> </strong> </div>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/bxVxm5GZHlylaY" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
+
+You can also [read about the GraphQL module in this online documentation](https://docs.flamingo.me/3.%20Flamingo%20Modules/graphql.html)
 
 The day ended with the topic „Flamingo in production“ and introduced the powerful monitoring, tracing and logging concepts build into flamingo. 
 The slides are also online (see [Flamingo in production Slides](https://de.slideshare.net/i-love-flamingo/flamingo-in-production)) and the content is available in this online documentation: [Flamingo in production](https://docs.flamingo.me/2.%20Flamingo%20Core/1.%20Flamingo%20Basics/5.%20Flamingo%20Production.html)
@@ -58,6 +61,7 @@ There you will see the a simple custom adapter to get products. ([Example Adapte
 
 After lunch we continued with a deep dive into some of the Flamingo Commerce Modules:
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/nFYAZqCLBan56v" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
 [Slides for Flamingo Commerce Modules](https://de.slideshare.net/i-love-flamingo/flamingo-commerce-module-details)
 
 We closed the day with discussions about the status and upcoming ideas for the Magento2 Adapters.
