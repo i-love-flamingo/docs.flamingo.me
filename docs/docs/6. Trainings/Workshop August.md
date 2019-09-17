@@ -23,16 +23,17 @@ The main concepts that have been introduced can also be read up in the documenta
 * [The configuration concept](https://docs.flamingo.me/2.%20Flamingo%20Core/2.%20Framework%20Modules/Configuration.html)
 * [The routing concept](https://docs.flamingo.me/2.%20Flamingo%20Core/2.%20Framework%20Modules/Web%20module/ReadmeRouter.html)
 
-After this there was an introduction to Flamingo Carotene and we worked on the Flamingo Carotene Example Application. The slides can be found here: https://de.slideshare.net/i-love-flamingo/flamingo-carotene
-and you can work through the examples yourself here: https://github.com/i-love-flamingo/example-flamingo-carotene
+After this there was an introduction to Flamingo Carotene and we worked on the Flamingo Carotene Example Application. 
+Here are the [slides for Flamingo Carotene](https://de.slideshare.net/i-love-flamingo/flamingo-carotene)
+and you can work through the examples yourself [Example Flamingo Carotene Project on Github](https://github.com/i-love-flamingo/example-flamingo-carotene)
 
-The next agenda point for this day was Flamingo and GraphQL. The slides are available here: https://de.slideshare.net/i-love-flamingo/graphql-with-flamingo
+The next agenda point for this day was Flamingo and GraphQL. 
+The slides are available here:
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/bxVxm5GZHlylaY" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/i-love-flamingo/graphql-with-flamingo" title="Graphql with Flamingo" target="_blank">Graphql with Flamingo</a> </strong> </div>
 
 The day ended with the topic „Flamingo in production“ and introduced the powerful monitoring, tracing and logging concepts build into flamingo. 
-The slides are also online: 
-
-* [Flamingo in production Slides](https://de.slideshare.net/i-love-flamingo/flamingo-in-production) and the content is available as documentation: 
-* [Flamingo in production](https://docs.flamingo.me/2.%20Flamingo%20Core/1.%20Flamingo%20Basics/5.%20Flamingo%20Production.html)
+The slides are also online [Flamingo in production Slides](https://de.slideshare.net/i-love-flamingo/flamingo-in-production) and the content is available as documentation: 
+[Flamingo in production](https://docs.flamingo.me/2.%20Flamingo%20Core/1.%20Flamingo%20Basics/5.%20Flamingo%20Production.html)
 
 
 ## Day 2 "Flamingo Commerce":
@@ -40,6 +41,8 @@ The slides are also online:
 The day 2 focused on Flamingo Commerce.
 
 It started with an introduction to Flamingo Commerce: 
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/yyTk94hWDVKOE1" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
 [Flamingo Commerce Intro Slides](https://de.slideshare.net/i-love-flamingo/flamingo-commerce-intro)
 
 After this we started the Hands On part and got the Flamingo Commerce Demoshop running for everyone. 
@@ -53,7 +56,9 @@ You can also read about [Ports and Adapters here](https://docs.flamingo.me/2.%20
 After this we continued the hands on session and wrote our own Product Adapter for the Demoshop. 
 You can follow this by cloning the branch "productadapter-step1“ in the Demoshop. There you will see the simple custom adapter to get products. [Example Adapter on Github](https://github.com/i-love-flamingo/commerce-demo-carotene/blob/productadapter-step1/src/myproduct/infrastructure/product/serviceadapter.go)
 
-After lunch we continued with a deep dive into some of the Flamingo Commerce Modules - with the [Slides for Flamingo Commerce Modules](https://de.slideshare.net/i-love-flamingo/flamingo-commerce-module-details)
+After lunch we continued with a deep dive into some of the Flamingo Commerce Modules:
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/nFYAZqCLBan56v" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+[Slides for Flamingo Commerce Modules](https://de.slideshare.net/i-love-flamingo/flamingo-commerce-module-details)
 
 We closed the day with discussions about the status and upcoming ideas for the Magento2 Adapters.
 
