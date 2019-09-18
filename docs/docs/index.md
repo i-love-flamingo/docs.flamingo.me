@@ -33,7 +33,7 @@ The Flamingo ecosystem consists of the following main projects:
 
 Related to this projects you find a couple of training materials and examples:
 
-* *hello-flamingo*: A minimalistic example project using only flamingo and gotemplates. [code on github](https://github.com/i-love-flamingo/hello-flamingo)
+* *hello-flamingo*: A minimalistic example project using only flamingo and gotemplates. [code on github](https://github.com/i-love-flamingo/example-helloworld)
 * *commerce-demo-carotene*: A standard demo shop using "Flamingo Commerce" and standalone adapters [code on github](https://github.com/i-love-flamingo/commerce-demo-carotene)
 
 Also there is a constantly growing amount of Flamingo modules that can be used as lib, some of them are maintained under the core project like:
@@ -51,7 +51,7 @@ The different modules provide „domain“, „application“ and „interface�
 
 According to „ports and adapters“ these modules can be used with your own „adapters“ to interact with any API or microservice you want.
 
-[documentation for Flamingo Commerce](4. Flamingo Commerce/1. Introduction/1. About Flamingo Commerce.md) 
+[documentation for Flamingo Commerce](https://docs.flamingo.me/4.%20Flamingo%20Commerce/1.%20Introduction/1.%20About.html) 
 
 ## Flamingo Carotene
 Flamingo-Carotene is an easy to use frontend (-tooling) for projects build with the Flamingo framework.
