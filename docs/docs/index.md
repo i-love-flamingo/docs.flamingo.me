@@ -54,7 +54,7 @@ Related to this projects you find a couple of training materials and examples:
 
 Also there is a constantly growing amount of Flamingo modules that can be used as lib, some of them are maintained under the core project like:
 
-* *dingo* Go Dependency Injection Framework, used for Flamingo modules as basis. [code on github](https://github.com/i-love-flamingo/dingo)
+* *dingo* Go Dependency Injection Framework, used for Flamingo modules as basis. [dingo on github](https://github.com/i-love-flamingo/dingo)
 * *form* Module that provided concepts to deal with web forms (parsing to data transfer objects, validating etc..) [code on github](https://github.com/i-love-flamingo/form)
 * *pugtemplate* Module that implements a flamingo templateengine that works together with the parsed pug templates by Flamingo Carotene. This is the Flamingo module that you need if you want to use Flamingo Carotene based templates. [code on github](https://github.com/i-love-flamingo/pugtemplate)
 
