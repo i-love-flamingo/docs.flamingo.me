@@ -34,13 +34,16 @@ cp workspace/graphql/Readme.md "workspace/docs/docs/3. Flamingo Modules/graphql.
 git clone git@github.com:i-love-flamingo/pugtemplate.git workspace/pugtemplate
 cp workspace/pugtemplate/Readme.md "workspace/docs/docs/3. Flamingo Modules/3. pugtemplate.md"
 
-#git clone git@gitlab.aoe.com:shared/i-love-flamingo/httpresilience.git workspace/httpresilience
+# Modules that we might be published later:
+##########
+
+#git clone git@github.com:i-love-flamingo/httpresilience.git workspace/httpresilience
 #cp workspace/httpresilience/Readme.md "workspace/docs/docs/3. Flamingo Modules/httpresilience.md"
 
-#git clone git@gitlab.aoe.com:shared/i-love-flamingo/captcha.git workspace/captcha
+#git clone git@github.com:i-love-flamingo/captcha.git workspace/captcha
 #cp workspace/captcha/Readme.md "workspace/docs/docs/3. Flamingo Modules/captcha.md"
 
-#git clone git@gitlab.aoe.com:shared/i-love-flamingo/csp.git workspace/csp
+#git clone git@github.com:i-love-flamingo//csp.git workspace/csp
 #cp workspace/csp/Readme.md "workspace/docs/docs/3. Flamingo Modules/csp.md"
 
 
