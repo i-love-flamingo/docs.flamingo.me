@@ -1,11 +1,6 @@
 site_name: Flamingo Documentations
 extra:
   logo: assets/flamingo-icon.png
-  social:
-    - type: 'github'
-      link: 'https://github.com/i-love-flamingo'
-    - type: 'twitter'
-      link: 'https://twitter.com/aoepeople'
 extra_css:
   - stylesheets/ci.css
 markdown_extensions:
