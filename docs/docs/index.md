@@ -5,32 +5,33 @@
 
 ## What is Flamingo
 
-Flamingo is a go based framework for rapidly building fast and pluggable web projects.
+Flamingo is a performant open source framework based on Go. 
+Its clean and scalable architecture is designed to build custom, fast and flexible applications.
 It is used to build scalable and maintainable (web)applications.
 
 Flamingo is:
-
-* open source
-* written in go
+* open source and written in go
 * easy to learn
-* fast and flexible
+* provides high flexible and best practices
 
 Go as simple, powerful and typesafe language is great to implement and scale serverside logic.
-Flamingo has a clean architecture with clear dependencies in mind and offers a typical features and support for nowadays web applications:
-
-* Powerful Templating Engines. E.g. support for Pug templates with reusable mixins and lightweight scripting.
-* Configuration concepts using yml and support for multiple areas and contexts
+Some highlights of the Flamingo framework are:
+* Modularization: A Module concept for building modular and pluggable applications
 * Powerful Dependency Injection
-* A Module concept for building modular and pluggable applications
-* Authentication concepts and security middleware
+* Authentication and Security Concepts
+* Operational Readiness "out of the box": Logging, (distributed) Tracing, Metrics and Healthchecks with seperate endpoint
+* Different Templating Engines
+* Configuration concepts using yml and cue and support for multiple areas and contexts
 * Flexible routing with support for prefix routes and reverse routing
 * Web Controller Support with: Request / Response / Form Handling etc
-* Operational Readyness: Logging, (distributed) Tracing, Metrics and Healthchecks with seperate endpoint
 * Localisation
 * Commands
 * Sessionhandling and Management
-* GraphQL support and therefore support to build nice SPA and PWAs on top of it
-* Resilience and Caching for external APIs calls.
+* A lot of available additional modules - for example:
+    * GraphQL support and therefore support to build nice SPA and PWAs on top of it
+    * Resilience and Caching for external APIs calls.
+    * gRPC integration
+    * Form handling and validation
 
 Flamingo itself does not contain ORM Mapper or libraries - instead it emphasizes "ports and adapters" architecture - so that you have a technology free (domain) model and any possible (and replaceable) persitence behind it.
 That makes Flamingo useful to build microservices and applications - especially to build "frontends" or portals that require interaction with other (micro) services in a distributed architecture. 
