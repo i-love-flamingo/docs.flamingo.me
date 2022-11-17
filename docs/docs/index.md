@@ -10,12 +10,14 @@ Its clean and scalable architecture is designed to build custom, fast and flexib
 It is used to build scalable and maintainable (web)applications.
 
 Flamingo is:
+
 * open source and written in go
 * easy to learn
 * provides high flexible and best practices
 
 Go as simple, powerful and typesafe language is great to implement and scale serverside logic.
 Some highlights of the Flamingo framework are:
+
 * Modularization: A Module concept for building modular and pluggable applications
 * Powerful Dependency Injection
 * Authentication and Security Concepts
@@ -45,12 +47,12 @@ With **"Flamingo Commerce"** there is an additional active projects that offer r
 The Flamingo ecosystem consists of the following main projects:
 
 * *Flamingo*: This is the go based (micro)framework with all core and framework modules. [code on github](https://github.com/i-love-flamingo/flamingo)
-* *Flamingo Carotene*: Npm modules that provide a frontend build pipeline for your projects - featuring tools like pug, Sass, webpack and atomic design pattern. [code on github](https://github.com/i-love-flamingo/flamingo-carotene)
+
 * *Flamingo Commerce*: Providing powerful e-commerce features, that you can use to build flexible and modern e-commerce applications [code on github](https://github.com/i-love-flamingo/flamingo-commerce)
 
 Related to this projects you find a couple of training materials and examples:
 
-* *hello-flamingo*: A minimalistic example project using only flamingo and gotemplates. [code on github](https://github.com/i-love-flamingo/example-helloworld)
+* *hello-flamingo*: A using only flamingo and gotemplates. [code on github](https://github.com/i-love-flamingo/example-helloworld)
 * *commerce-demo-carotene*: A standard demo shop using "Flamingo Commerce" and standalone adapters [code on github](https://github.com/i-love-flamingo/commerce-demo-carotene)
 
 Also there is a constantly growing amount of Flamingo modules that can be used as lib, some of them are maintained under the core project like:
@@ -70,12 +72,6 @@ According to „ports and adapters“ these modules can be used with your own �
 
 [documentation for Flamingo Commerce](https://docs.flamingo.me/4.%20Flamingo%20Commerce/1.%20Introduction/1.%20About.html) 
 
-## Flamingo Carotene
-Flamingo-Carotene is an easy to use frontend (-tooling) for projects build with the Flamingo framework.
-It offers the frontend build pipeline using tools like pug, sass, webpack and atomic design pattern.
-It can be used to implement modern and flexible - component based templates for your web applications.
-
-[documentation for Flamingo Carotene](5. Template Engine Flamingo Carotene/1. Introduction/01-Introduction.md)
 
 # Getting started:
 
