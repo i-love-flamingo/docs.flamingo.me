@@ -95,10 +95,4 @@ cp -R "workspace/example-flamingo-carotene/docs/" "workspace/docs/docs/6. Traini
 ## google tracking
 cp docs/google08f27145a183daa3.html workspace/docs/site/
 
-
-cd workspace/docs
-cd ../..
-
-
-
 echo "*****Ready :-)"
