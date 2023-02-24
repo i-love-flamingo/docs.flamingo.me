@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BUILDIMAGE=squidfunk/mkdocs-material:latest
+BUILDIMAGE=squidfunk/mkdocs-material:9.0.14
 
 
 
@@ -24,4 +24,3 @@ echo "DONE :-)"
 
 echo "now open workspace/docs/site/index.html"
 # open workspace/docs/site/index.html
-
