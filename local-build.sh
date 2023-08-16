@@ -9,7 +9,7 @@ echo "******************************"
 echo "*****run build mkdocs..."
 echo "******************************"
 docker pull ${BUILDIMAGE}
-cd workspace/docs
+cd workspace_new/docs
 docker run --rm -v $(pwd):/docs ${BUILDIMAGE} build
 cd ../../
 
@@ -17,6 +17,10 @@ cd ../../
 echo "*****Build Other assets / Training Materials"
 echo "******************************"
 #./_build_other_assets.sh
+
+echo "*****Move tmp workspace to real..."
+rm -rf workspace
+mv workspace_new workspace
 
 echo "DONE :-)"
 
