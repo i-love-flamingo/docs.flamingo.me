@@ -34,6 +34,9 @@ cp workspace_new/graphql/Readme.md "workspace_new/docs/docs/3. Flamingo Modules/
 git clone https://github.com/i-love-flamingo/pugtemplate.git workspace_new/pugtemplate
 cp workspace_new/pugtemplate/Readme.md "workspace_new/docs/docs/3. Flamingo Modules/3. pugtemplate.md"
 
+git clone https://github.com/i-love-flamingo/opentelemetry.git workspace_new/opentelemetry
+cp workspace_new/opentelemetry/Readme.md "workspace_new/docs/docs/3. Flamingo Modules/opentelemetry.md"
+
 # Modules that we might be published later:
 ##########
 
