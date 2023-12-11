@@ -1,48 +1,63 @@
 .md-header {
-    background-color: #606A71;
-}
-.md-footer-meta {
-    background: rgb(96, 106, 113);
+    background-color: rgba(0,0,0,0.2);
+    padding: 2em;
 }
 
+:root {
+    --md-default-fg-color--light: #ffffff !important;
+    --md-primary-fg-color:#ffffff !important;
+    --md-admonition-fg-color:#ffffff !important;
+    --md-accent-fg-color:#ffffff !important;
+    --md-typeset-color:#ffffff !important;
+    --md-footer-bg-color--dark:rgba(0,0,0,0.2) !important;
+    --md-footer-bg-color:rgba(0,0,0,0.2) !important;
+}
+
+body {
+    background-position: center;
+    background-size: cover;
+    background-image: url("../assets/background-dark.jpg");
+}
+
+.md-nav__title {
+    background: none !important;
+    box-shadow: none !important;
+}
+
+.md-nav--primary {
+    background: none;
+}
 .md-footer-nav {
-    background-color: rgba(96, 106, 113, 0.65);
+    background-color: rgba(96, 106, 113, 0.2);
 }
 
-.md-nav__item--active>.md-nav__link, .md-nav__link:active {
-    color: #F7931D;
+.md-nav__list>.md-nav__item--active>.md-nav__link,.md-nav__list>.md-nav__item--nested>.md-nav__link, .md-sidebar--primary {
+    background-color: transparent;
+}
+
+.md-nav__title, .md-nav__item--active>.md-nav__link, .md-nav__link:active {
+    color: white;
 }
 
 .md-typeset a {
-    color: #F7931D;
+    color: white;
 }
 
 .md-nav__link:focus, .md-nav__link:hover {
-    color: #F7931D;
+    color: white;
 }
 
-/* adjust width and font of left menu to allow wider text */
-/*.md-sidebar--primary {*/
-/*    width: 26rem;*/
-/*}*/
-/*.md-sidebar--primary .md-nav ul ul {*/
-/*    font-size: 1.3rem*/
-/*}*/
-/*@media only screen and (min-width: 76.25em) {*/
-/*    .md-content {*/
-/*        margin-left: 25rem;*/
-/*    }*/
-/*}*/
-
-
 .md-nav--secondary {
-    border-left: .4rem solid #F7931D;
+    border-left: .4rem solid white;
 }
 
 
 /* adjust bg color of left nav on mobile */
 @media only screen and (max-width: 76.1875em) {
     html .md-nav--primary .md-nav__title--site {
-        background-color: #606A71;
+        background-color: transparent;
+    }
+    :root {
+        --md-default-bg-color:#531f2c;
     }
 }

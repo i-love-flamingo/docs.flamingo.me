@@ -34,6 +34,9 @@ cp workspace_new/graphql/Readme.md "workspace_new/docs/docs/3. Flamingo Modules/
 git clone https://github.com/i-love-flamingo/pugtemplate.git workspace_new/pugtemplate
 cp workspace_new/pugtemplate/Readme.md "workspace_new/docs/docs/3. Flamingo Modules/3. pugtemplate.md"
 
+git clone https://github.com/i-love-flamingo/opentelemetry.git workspace_new/opentelemetry
+cp workspace_new/opentelemetry/Readme.md "workspace_new/docs/docs/3. Flamingo Modules/opentelemetry.md"
+
 # Modules that we might publish later:
 ##########
 
@@ -55,7 +58,6 @@ cp -R "workspace_new/example-helloworld/docs" "workspace_new/docs/docs/1. Introd
 mkdir -p "workspace_new/docs/docs/6. Trainings/docs/"
 cp -R "workspace_new/example-helloworld/docs" "workspace_new/docs/docs/6. Trainings/"
 
-exit
 git clone https://github.com/i-love-flamingo/example-openweather.git workspace_new/example-openweather
 cp "workspace_new/example-openweather/Readme.md" "workspace_new/docs/docs/6. Trainings/2. Tutorial Openweather.md"
 
@@ -67,7 +69,7 @@ cp -R -L "workspace_new/flamingo-commerce/docs/2. Flamingo Commerce Modules" "wo
 mkdir -p "workspace_new/docs/docs/4. Flamingo Commerce/2. Flamingo Commerce Modules/interfaces/graphql"
 cp "workspace_new/flamingo-commerce/cart/interfaces/graphql/schema.graphql" "workspace_new/docs/docs/4. Flamingo Commerce/2. Flamingo Commerce Modules/interfaces/graphql"
 mkdir -p "workspace_new/docs/docs/4. Flamingo Commerce/2. Flamingo Commerce Modules/domain/placeorder/states"
-cp "workspace_new/flamingo-commerce/checkout/domain/placeorder/states/*.png" "workspace_new/docs/docs/4. Flamingo Commerce/2. Flamingo Commerce Modules/placeorder/states"
+cp workspace_new/flamingo-commerce/checkout/domain/placeorder/states/*.png "workspace_new/docs/docs/4. Flamingo Commerce/2. Flamingo Commerce Modules/domain/placeorder/states/"
 
 git clone https://github.com/i-love-flamingo/flamingo-commerce-adapter-standalone.git workspace_new/flamingo-commerce-adapter-standalone
 mkdir -p "workspace_new/docs/docs/4. Flamingo Commerce/3. Adapter/1. Standalone"
@@ -95,6 +97,7 @@ mkdir -p "workspace_new/docs/docs/6. Trainings/docs"
 cp "workspace_new/example-flamingo-carotene/docs/step2_result.png" "workspace_new/docs/docs/6. Trainings/docs/"
 
 ## google tracking
+mkdir -p workspace_new/docs/site/
 cp docs/google08f27145a183daa3.html workspace_new/docs/site/
 
 echo "*****Ready :-)"
