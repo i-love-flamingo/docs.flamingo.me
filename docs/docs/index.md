@@ -1,6 +1,7 @@
 # Flamingo Documentation
 
-![Logo](assets/logo-flamingo.svg)
+![Logo](assets/logo-flamingo_black.svg#only-light)
+![Logo](assets/logo-flamingo.svg#only-dark)
 
 
 ## What is Flamingo
