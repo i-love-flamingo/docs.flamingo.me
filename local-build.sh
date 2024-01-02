@@ -1,6 +1,6 @@
 #!/bin/bash -x
 
-BUILDIMAGE=squidfunk/mkdocs-material:9.4.14
+BUILDIMAGE=squidfunk/mkdocs-material:9.5.3
 
 echo "*****Prepare Docs inside workspace folder."
 echo "******************************"
