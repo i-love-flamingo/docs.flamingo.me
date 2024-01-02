@@ -1,6 +1,6 @@
 #!/bin/bash -x
 
-BUILDIMAGE=squidfunk/mkdocs-material:9.0.14
+BUILDIMAGE=squidfunk/mkdocs-material:9.5.3
 
 echo "*****Prepare Docs inside workspace folder."
 echo "******************************"
@@ -10,7 +10,7 @@ echo "*****run build mkdocs..."
 echo "******************************"
 docker pull ${BUILDIMAGE}
 cd workspace_new/docs
-docker run --rm -v $(pwd):/docs ${BUILDIMAGE} build
+docker run --rm --user "$(id -u):$(id -g)" -v "$(pwd)":/docs ${BUILDIMAGE} build
 cd ../../
 
 
@@ -26,3 +26,4 @@ echo "DONE :-)"
 
 echo "now open workspace/docs/site/index.html"
 # open workspace/docs/site/index.html
+
