@@ -17,6 +17,9 @@ theme:
   name: 'material'
   favicon: assets/flamingo_head_black.png
   logo: assets/flamingo-icon-white.svg
+  palette:
+    scheme: slate
+    primary: custom
 
 google_analytics:
   - UA-129655449-1

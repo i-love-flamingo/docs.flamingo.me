@@ -1,64 +1,12 @@
-.md-header {
-    background-color: rgba(0,0,0,0.2);
-    padding: 2em;
-}
-
 :root {
-    --md-default-fg-color--light: #ffffff !important;
-    --md-primary-fg-color:#ffffff !important;
-    --md-admonition-fg-color:#ffffff !important;
-    --md-accent-fg-color:#ffffff !important;
-    --md-typeset-color:#ffffff !important;
-    --md-footer-bg-color--dark:rgba(0,0,0,0.2) !important;
-    --md-footer-bg-color:rgba(0,0,0,0.2) !important;
+  --md-primary-fg-color: #ffffff !important;
+  --md-accent-fg-color:  #ffffff !important;
+  --md-accent-fg-color--transparent: rgba(255,255,255,.8)  !important;
+  --md-typeset-a-color:  #ffffff !important;
 }
-
-body {
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    background-image: url("../assets/background-dark.jpg");
-}
-
-.md-nav__title {
-    background: none !important;
-    box-shadow: none !important;
-}
-
-.md-nav--primary {
-    background: none;
+.md-header {
+    background-color: #333;
 }
 .md-footer-nav {
-    background-color: rgba(96, 106, 113, 0.2);
-}
-
-.md-nav__list>.md-nav__item--active>.md-nav__link,.md-nav__list>.md-nav__item--nested>.md-nav__link, .md-sidebar--primary {
-    background-color: transparent;
-}
-
-.md-nav__title, .md-nav__item--active>.md-nav__link, .md-nav__link:active {
-    color: white;
-}
-
-.md-typeset a {
-    color: white;
-}
-
-.md-nav__link:focus, .md-nav__link:hover {
-    color: white;
-}
-
-.md-nav--secondary {
-    border-left: .4rem solid white;
-}
-
-
-/* adjust bg color of left nav on mobile */
-@media only screen and (max-width: 76.1875em) {
-    html .md-nav--primary .md-nav__title--site {
-        background-color: transparent;
-    }
-    :root {
-        --md-default-bg-color:#531f2c;
-    }
+  background-color: #333;
 }
