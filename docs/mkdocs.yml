@@ -18,9 +18,23 @@ theme:
   favicon: assets/flamingo_head_black.png
   logo: assets/flamingo-icon-white.svg
   palette:
-    scheme: slate
-    primary: custom
-
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
 google_analytics:
   - UA-129655449-1
   - auto

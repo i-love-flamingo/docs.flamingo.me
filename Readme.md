@@ -29,5 +29,5 @@ Then you are welcome to open a Pull Request with your suggested changes or addon
 
 
 ## Build it local:
-Run `./local-build.sh'
+Run `./local-build.sh` and open `workspace/docs/site/index.html` afterward.
 
