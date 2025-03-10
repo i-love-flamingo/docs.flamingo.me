@@ -1,22 +1,31 @@
 site_name: Flamingo Documentations
+repo_url: https://github.com/i-love-flamingo/flamingo
+repo_name: flamingo
 extra:
   logo: assets/flamingo-icon.svg
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/i-love-flamingo/flamingo
 extra_css:
   - stylesheets/ci.css
 markdown_extensions:
   - admonition
-  - codehilite:
-      guess_lang: false
+  - pymdownx.highlight
+  - pymdownx.superfences
   - toc:
       permalink: true
-  - extra
   - footnotes
   - abbr
 use_directory_urls: false
 theme:
   name: 'material'
+  features:
+    - content.code.copy
+    - content.stats
   favicon: assets/flamingo_head_black.png
   logo: assets/flamingo-icon-white.svg
+  icon:
+    repo: fontawesome/brands/github
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
